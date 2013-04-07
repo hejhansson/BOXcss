@@ -6,6 +6,81 @@ Author URI: http://alexanderhansson.se
 */
 
 /* --------------------------------------------------------------
+		BOX.CSS
+-------------------------------------------------------------- */
+
+
+* {
+	margin: 0;
+	padding: 0;	
+	-webkit-font-smoothing: antialiased;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html { 
+	overflow-y: scroll; 
+}
+
+img {
+	max-width: 100%; 
+}
+
+::selection { 
+	background: #e67e22;
+	color:#fff; 
+	text-shadow : none; 
+}
+
+::-moz-selection { 
+	background:#e67e22;
+	color:#fff; 
+	text-shadow : none; 
+}
+
+header {
+	z-index: 999999;
+}
+
+/* --------------------------------------------------------------
+		Typography
+-------------------------------------------------------------- */
+
+body {
+	font-size: 100%/1.5;
+	font-family:  Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+h1 { 
+  font-size: 3rem; 
+  line-height: 1em;
+  margin-bottom: 12px; 
+}
+h2 { 
+   font-size: 2rem; 
+  line-height: 1em;
+  margin-bottom: 12px;
+}
+h3 { 
+  font-size: 1.5rem; 
+  line-height: 1em;
+  line-height: 12px; 
+}
+
+p {
+	font-size:1em;
+	line-height:1.7em;
+	display: block;
+    margin-bottom: 1.2em; 
+ }
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+
+/* --------------------------------------------------------------
 --- Buttons
 -------------------------------------------------------------- */
  [class*='btn-'] {
@@ -15,10 +90,6 @@ Author URI: http://alexanderhansson.se
 		-o-transition: all .3s ease-out;
 	}
 
-
-	/*
-	ORANGE 
-	*/
 
  .btn-orange {
 		margin-right: 15px !important;  
@@ -31,23 +102,21 @@ Author URI: http://alexanderhansson.se
 		border-radius:5px;
 		background-color: #e67e22; 
   		font-weight: 900;
-  	}
+  }
 
 
 .btn-orange:hover {
     	text-decoration: none;
     	cursor: pointer;
     	opacity: .9;	
-	}
-	.btn-orange:active {
+}
+
+.btn-orange:active {
  }
 
- 	/*
- 	BLUE
- 	*/
+ 
 
-
-  .btn-blue{
+ .btn-blue {
 		margin-right: 15px !important;  
 		font-size: 12px;
 		color: white !important;
@@ -58,15 +127,16 @@ Author URI: http://alexanderhansson.se
 		border-radius:5px;
 		background-color: #3498db; 
   		font-weight: 900;
-  	}
+  }
 
 
 .btn-blue:hover {
     	text-decoration: none;
     	cursor: pointer;
     	opacity: .9;	
-	}
-	.btn-blue:active {
+}
+
+.btn-blue:active {
  }
 
 
@@ -123,6 +193,4 @@ Author URI: http://alexanderhansson.se
 	}
 	.btn-gray:active {
  }
-
-
 

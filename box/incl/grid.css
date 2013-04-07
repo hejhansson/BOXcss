@@ -5,44 +5,6 @@ Author URI: http://alexanderhansson.se
 
 */
 
-/* --------------------------------------------------------------
-		BOX.CSS
--------------------------------------------------------------- */
-
-
-* {
-	margin: 0;
-	padding: 0;	
-	-webkit-font-smoothing: antialiased;
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
-}
-
-html { 
-	overflow-y: scroll; 
-}
-
-img {
-	max-width: 100%; 
-}
-
-::selection { 
-	background: #e67e22;
-	color:#fff; 
-	text-shadow : none; 
-}
-
-::-moz-selection { 
-	background:#e67e22;
-	color:#fff; 
-	text-shadow : none; 
-}
-
-header {
-	z-index: 999999;
-}
-
 
 /* --------------------------------------------------------------
 --- Grid
@@ -50,7 +12,7 @@ header {
 
 .container {
 	max-width: 960px;
-	margin: 0 auto;
+	margin: 10px auto 100px;
 	padding: 0 20px; 
 }
 	
@@ -94,7 +56,7 @@ header {
 
 @media only screen and (max-width: 540px) {
 [class*='box-'] {
-	width: auto;
+	width: 100%;
 	margin-left: 0;
 	display: block;
 }

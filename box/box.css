@@ -11,7 +11,6 @@ Author URI: http://alexanderhansson.se
 
 
 
-@import url('incl/reset.css');
-@import url('incl/buttons.css');
+@import url('incl/normalize.min.css');
 @import url('incl/grid.css');
-@import url('incl/typography.css');
+@import url('incl/styles.css');
