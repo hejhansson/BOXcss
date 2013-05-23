@@ -1,12 +1,5 @@
-/*
-
-Author: Alexander Hansson
-Author URI: http://alexanderhansson.se
-
-*/
-
 /* --------------------------------------------------------------
-		BOX.CSS
+		$BASIC STYLES
 -------------------------------------------------------------- */
 
 
@@ -39,8 +32,16 @@ img {
 	text-shadow : none; 
 }
 
-header {
-	z-index: 999999;
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	padding: 0;
 }
 
 /* --------------------------------------------------------------
@@ -79,118 +80,4 @@ p {
 		margin-bottom: 0;
 	}
 
-
-/* --------------------------------------------------------------
---- Buttons
--------------------------------------------------------------- */
- [class*='btn-'] {
- 	transition: all .3s ease-out;
-		-webkit-transition: all .3s ease-out;
-		-moz-transition: all .3s ease-out;
-		-o-transition: all .3s ease-out;
-	}
-
-
- .btn-orange {
-		margin-right: 15px !important;  
-		font-size: 12px;
-		color: white !important;
-		padding: 13px 35px;
-		text-decoration: none;
-		text-transform: uppercase;
-		text-align: center;
-		border-radius:5px;
-		background-color: #e67e22; 
-  		font-weight: 900;
-  }
-
-
-.btn-orange:hover {
-    	text-decoration: none;
-    	cursor: pointer;
-    	opacity: .9;	
-}
-
-.btn-orange:active {
- }
-
- 
-
- .btn-blue {
-		margin-right: 15px !important;  
-		font-size: 12px;
-		color: white !important;
-		padding: 13px 35px;
-		text-decoration: none;
-		text-transform: uppercase;
-		text-align: center;
-		border-radius:5px;
-		background-color: #3498db; 
-  		font-weight: 900;
-  }
-
-
-.btn-blue:hover {
-    	text-decoration: none;
-    	cursor: pointer;
-    	opacity: .9;	
-}
-
-.btn-blue:active {
- }
-
-
-	/*
- 	GREEN
- 	*/
-
-
-  .btn-green{
-		margin-right: 15px !important;  
-		font-size: 12px;
-		color: white !important;
-		padding: 13px 35px;
-		text-decoration: none;
-		text-transform: uppercase;
-		text-align: center;
-		border-radius:5px;
-		background-color: #2ecc71; 
-  		font-weight: 900;
-  	}
-
-
-.btn-green:hover {
-    	text-decoration: none;
-    	cursor: pointer;
-    	opacity: .9;	
-	}
-	.btn-green:active {
- }
-
-	/*
- 	GRAY
- 	*/
-
-
-  .btn-gray{
-		margin-right: 15px !important;  
-		font-size: 12px;
-		color: white !important;
-		padding: 13px 35px;
-		text-decoration: none;
-		text-transform: uppercase;
-		text-align: center;
-		border-radius:5px;
-		background-color: #95a5a6; 
-  		font-weight: 900;
-  	}
-
-
-.btn-gray:hover {
-    	text-decoration: none;
-    	cursor: pointer;
-    	opacity: .9;	
-	}
-	.btn-gray:active {
- }
 
