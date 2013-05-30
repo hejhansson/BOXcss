@@ -1,15 +1,18 @@
 /*
 
+Theme Name: 
+Theme URI: 
+Description: BOX.css
 Author: Alexander Hansson
-Author URI: http://alexanderhansson.se
+Author URI: http://alexanderhansson.se/
+Version: 1.0
+Tags: 
 
 */
 
 /* --------------------------------------------------------------
-		BOX.CSS
+		$BOX.CSS
 -------------------------------------------------------------- */
-
-
 
 @import url('incl/normalize.min.css');
 @import url('incl/styles.css');
