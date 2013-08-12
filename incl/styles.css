@@ -131,6 +131,38 @@ input:focus {
   	border: 1px solid #999;
 }
 
+table {
+	width: 100%;
+	background-color: transparent;
+	border-collapse: collapse;
+	border: 1px solid #dddddd;
+}
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+	border: 1px solid #dddddd;
+}
+
+th {
+	padding: 8px 10px;
+	background: #dddddd;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 6px 10px;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+	background-color: #eee;
+}
 
 /* --------------------------------------------------------------
 		$TYPOGRAPHY
