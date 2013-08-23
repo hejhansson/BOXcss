@@ -57,25 +57,69 @@
 header h1 {
 	display: block;
 	text-align: center;
-}
-
-header nav {
-	display: block;
 	width: 100%;
 }
 
-header nav ul {
-
+header nav.open {
+	display: block;
+	width: 100%;
+	transition: height .2s;
+	-webkit-transition: height .2s;
+	-moz-transition: height .2s;
+	height: auto;
 }
 
-header nav ul li {
-	width: 24%;
+header nav.open ul {
+	margin-top: 30px;
+	border-top: 1px solid #999;
+}
+
+header nav.open ul li {
+	width: 100%;
+	padding: 15px;
+	margin: 0;
 	text-align: center;
+	border-bottom: 1px solid #999;
+}
+
+nav.closed, nav.closed-start {
+	display: none;
 }
 
 blockquote {
 	padding: 0 10px;
 	margin: 0;
+}
+
+input {
+	display: block;
+	width: 100%;
+}
+
+.box-shadow-menu {
+	display: block !important;
+  position: relative;
+  padding:12px 0 0 25px;
+  border: none;
+  color:#777;
+}
+
+.box-shadow-menu:hover {
+  padding:12px 0 0 25px;
+}
+
+
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1em;
+  width: 1em;
+  height: 0.15em;
+  background: #777;
+  box-shadow: 
+    0 0.25em 0 0 #777,
+    0 0.5em 0 0 #777;
 }
 
 
