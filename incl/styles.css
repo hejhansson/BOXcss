@@ -38,9 +38,7 @@ img {
 }
 
 a, a:visited {
-	text-decoration: none;
-	border-bottom: 1px solid;
-	padding: 0 0 -.5px 0;
+	text-decoration: underline;
 	color: inherit;
 
 	transition: all .2s;
@@ -48,9 +46,7 @@ a, a:visited {
 	-moz-transition: all .2s;
 }
 
-a:hover {
-	padding: 0 0 3px 0;
-}
+a:hover {}
 
 blockquote {
 	line-height: 1.7em;
@@ -266,6 +262,10 @@ header nav ul a {
 header nav ul a li:hover, .nav-active {
 	background: #cbcbcb;
 	color: white;
+}
+
+#menu {
+	text-decoration: none;
 }
 
 .box-shadow-menu {
