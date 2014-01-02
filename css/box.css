@@ -1,0 +1,501 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,900italic,900,700italic,700,400italic,300italic,300);
+@import url(normalize.css);
+/* --------------------------------------------------------------
+
+	@author Alexander Hansson
+ 	@version 1.0
+
+	TABLE OF CONTENTS
+	------------------
+	0. IMPORTS & VARIABLES
+	1. FIXES
+	2. BASE
+	3. TYPOGRAPHY
+	4. SITE
+		4.1 HEADER
+		4.2 NAVIGATION
+		4.3 CONTENT
+		4.4 FOOTER
+	5. GRID
+	6. MEDIA QUERIES
+	7. PRINT
+
+/* --------------------------------------------------------------
+	0. IMPORT, MIXINS AND VARIABLES
+	   This file contains some useful mixins, font imports
+	   and also variables.
+-------------------------------------------------------------- */
+/*----------------------------------------------------------------
+		0. IMPORTS, VARIABLES & MIXINS
+-------------------------------------------------------------- */
+/* COLORS */
+/* CONTAINER WIDTH
+   Usually between 960px and 1200px */
+/* Fonts */
+/* --------------------------------------------------------------
+	1. FIXES
+	   OS7 Fix - some inputs collapse when empty. Disable 
+	   max-width for Google Map images. Some FF and Chrome fixes.
+	   Print-styles are included here.
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+		1. FIXES
+-------------------------------------------------------------- */
+/* Firefox Fix */
+button::-moz-focus-inner,
+input[type=reset]::-moz-focus-inner,
+input[type=button]::-moz-focus-inner,
+input[type=submit]::-moz-focus-inner,
+input[type=file] > input[type=button]::-moz-focus-inner
+{
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+/* WebKit Fix */
+input[type=search],
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration
+{
+    -webkit-appearance: none;
+}
+[placeholder]:focus::-webkit-input-placeholder
+{
+    color: transparent;
+}
+/* iOS7 Fix - some inputs collapse when empty */
+input[type=text],
+input[type=password],
+input[type=search],
+input[type=email],
+input[type=url],
+input[type=tel],
+input[type=date],
+input[type=time],
+input[type=number]
+{
+    height: 2em;
+}
+/* Disable max-width for Google Map images */
+#map_canvas img,
+.google-maps img
+{
+    max-width: none;
+}
+img,
+object,
+embed
+{
+    display: block;
+
+    width: auto;
+    width: auto\9;
+    max-width: 100%;
+  /* IE Fix */
+    height: auto;
+
+    vertical-align: middle;
+
+    -ms-interpolation-mode: bicubic;
+    border: none;
+    border: 0;
+}
+/* --------------------------------------------------------------
+		PRINT
+-------------------------------------------------------------- */
+@media print
+{
+    *
+    {
+        color: #000 !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+  a:visited
+    {
+        text-decoration: underline;
+    }
+    a[href]:after
+    {
+        content: ' (' attr(href) ')';
+    }
+    abbr[title]:after
+    {
+        content: ' (' attr(title) ')';
+    }
+    .ir a:after,
+  a[href^='javascript:']:after,
+  a[href^='#']:after
+    {
+        content: '';
+    }
+    pre,
+  blockquote
+    {
+        border: 1px solid #999;
+
+        page-break-inside: avoid;
+    }
+    thead
+    {
+        display: table-header-group;
+    }
+    tr,
+  img
+    {
+        page-break-inside: avoid;
+    }
+    img
+    {
+        max-width: 100% !important;
+    }
+  @page {
+        margin: 2cm;
+    }
+    p,
+  h2,
+  h3
+    {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+  h3
+    {
+        page-break-after: avoid;
+    }
+}
+/* --------------------------------------------------------------
+	2. BASE
+	   Basic styles - links, selection, *-reset.
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+		2. BASE
+-------------------------------------------------------------- */
+*
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    overflow-y: scroll;
+
+    min-height: 100%;
+}
+body
+{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* disable webkit tap highlight */
+}
+::selection
+{
+    color: #fff;
+    background: #000;
+    text-shadow: none;
+}
+::-moz-selection
+{
+    color: #fff;
+    background: #000;
+    text-shadow: none;
+}
+a,
+a:visited
+{
+    text-decoration: underline;
+
+    color: black;
+}
+a:hover,
+a:visited:hover,
+a:focus,
+a:visited:focus
+{
+    color: black;
+}
+/* --------------------------------------------------------------
+	3. TYPOGRAPHY
+	   Headings, and paragraphs. Font-size and line-height adjust 
+	   for opitmal readability. (TODO - blockquote osv)
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+		3. TYPOGRAPHY
+-------------------------------------------------------------- */
+body
+{
+    font-family: Georgia, serif;
+    font-size: 100%;
+
+    color: #000;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+blockquote
+{
+    font-size: 1.125em;
+    line-height: 1.6em;
+
+    margin-left: -40px;
+    padding-left: 40px;
+
+    border-left: 2px solid #f77f00;
+}
+.initial:first-letter
+{
+    font-size: 4.4em;
+    line-height: 60px;
+
+    float: left;
+
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-left: 3px;
+
+    color: #f77f00;
+}
+small
+{
+    font-size: 85%;
+}
+em
+{
+    font-style: italic;
+}
+strong
+{
+    font-weight: 700;
+}
+h1,
+h2,
+h3
+{
+    font-weight: normal;
+    line-height: 1em;
+
+    margin-bottom: 12px;
+}
+h1
+{
+    font-size: 3.2em;
+}
+h2
+{
+    font-size: 2.6em;
+}
+h3
+{
+    font-size: 1.525em;
+}
+p
+{
+    font-size: 1.125em;
+    line-height: 145%;
+
+    display: block;
+
+    margin: 0 0 1em 0;
+}
+p:last-child
+{
+    margin: 0;
+}
+p > a
+{
+    font-weight: bolder;
+
+    text-decoration: none;
+}
+/* --------------------------------------------------------------
+	4. SITE
+	   Here's were you will be working and styling your
+	   pages.
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+		4. SITE
+			4.1 HEADER
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+			4.2 NAVIGATION
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+			4.3 CONTENT
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+			4.4 FOOTER
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+	5. GRID
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+		5. GRID
+-------------------------------------------------------------- */
+.container
+{
+    position: relative;
+
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container:after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+[class*='box-'],
+.box
+{
+    display: inline-block;
+    float: left;
+
+    padding: 20px 5px;
+}
+.box-12
+{
+    width: 100%;
+}
+.box-11
+{
+    width: 91.6%;
+}
+.box-10
+{
+    width: 83.3%;
+}
+.box-9
+{
+    width: 75%;
+}
+.box-8
+{
+    width: 66.6%;
+}
+.box-7
+{
+    width: 58.3%;
+}
+.box-6
+{
+    width: 50%;
+}
+.box-5
+{
+    width: 41.6%;
+}
+.box-4
+{
+    width: 33.3%;
+}
+.box-3
+{
+    width: 25%;
+}
+.box-2
+{
+    width: 16.6%;
+}
+.box-1
+{
+    width: 8.3%;
+}
+.hidden
+{
+    display: none;
+}
+.notvisible
+{
+    visibility: hidden;
+}
+/* --------------------------------------------------------------
+	6. MEDIA QUERIES 
+	Your responsive styles here.
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+		6. MEDIA QUERIES 
+-------------------------------------------------------------- */
+@media screen and (min-width: 540px) and (max-width: 960px)
+{
+    .container
+    {
+        max-width: 500px;
+    }
+    .tablet-12
+    {
+        width: 100%;
+    }
+    .tablet-11
+    {
+        width: 91.6%;
+    }
+    .tablet-10
+    {
+        width: 83.3%;
+    }
+    .tablet-9
+    {
+        width: 75%;
+    }
+    .tablet-8
+    {
+        width: 66.6%;
+    }
+    .tablet-7
+    {
+        width: 58.3%;
+    }
+    .tablet-6
+    {
+        width: 50%;
+    }
+    .tablet-5
+    {
+        width: 41.6%;
+    }
+    .tablet-4
+    {
+        width: 33.3%;
+    }
+    .tablet-3
+    {
+        width: 25%;
+    }
+    .tablet-2
+    {
+        width: 16.6%;
+    }
+    .tablet-1
+    {
+        width: 8.3%;
+    }
+    .tablet-hidden
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 540px)
+{
+    [class*='box-'],
+  [class*='tablet-']
+    {
+        display: block;
+
+        width: 100%;
+        margin-left: 0;
+    }
+    .phone-hidden
+    {
+        display: none;
+    }
+}

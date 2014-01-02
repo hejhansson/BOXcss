@@ -1,0 +1,53 @@
+/*----------------------------------------------------------------
+		0. IMPORTS, VARIABLES & MIXINS
+-------------------------------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,900italic,900,700italic,700,400italic,300italic,300);
+
+@import url(normalize.css);
+
+/* COLORS */
+@main-color: black;
+@text-color: black;
+@orange: #f77f00;
+
+@selection-color: #fff;
+@selection-background: black;
+
+
+/* CONTAINER WIDTH
+   Usually between 960px and 1200px */	
+@cont-width: 640px;
+@cont-width-tablet: 500px;
+
+/* Fonts */
+@lato: 'Lato', helvetica, sans-serif;
+@opensans: 'Open Sans', helvetica, sans-serif;
+@merriweather: 'Merriweather', Georgia, serif;
+@georgia: Georgia, serif;
+
+
+.border-radius (@radius) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+
+.opacity (@opacity) {
+	-webkit-opacity: 	@opacity;
+	-moz-opacity: 		@opacity;
+	opacity:		@opacity; 
+}
+
+.transition (@transition) {
+	-webkit-transition: @transition;  
+	-moz-transition:    @transition;
+	-ms-transition:     @transition; 
+	-o-transition:      @transition;  
+}
