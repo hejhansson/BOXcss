@@ -31,9 +31,11 @@
 		0. IMPORTS, VARIABLES & MIXINS
 -------------------------------------------------------------- */
 /* COLORS */
-/* CONTAINER WIDTH
-   Usually between 960px and 1200px */
+/* SELECTION */
+/* CONTAINER WIDTH */
+/* Usually between 960px and 1200px */
 /* Fonts */
+/* MIXINS */
 /* --------------------------------------------------------------
 	1. FIXES
 	   OS7 Fix - some inputs collapse when empty. Disable 
@@ -171,6 +173,25 @@ embed
     }
 }
 /* --------------------------------------------------------------
+		HELP CLASSES
+-------------------------------------------------------------- */
+.no-padding
+{
+    padding: 0 !important;
+}
+.no-margin
+{
+    margin: 0 !important;
+}
+.float-l
+{
+    float: left;
+}
+.float-r
+{
+    float: right;
+}
+/* --------------------------------------------------------------
 	2. BASE
 	   Basic styles - links, selection, *-reset.
 -------------------------------------------------------------- */
@@ -235,7 +256,7 @@ body
     font-family: Georgia, serif;
     font-size: 100%;
 
-    color: #000;
+    color: #111;
 
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -248,7 +269,7 @@ blockquote
     margin-left: -40px;
     padding-left: 40px;
 
-    border-left: 2px solid #f77f00;
+    border-left: 2px solid #ff851b;
 }
 .initial:first-letter
 {
@@ -261,7 +282,7 @@ blockquote
     padding-right: 12px;
     padding-left: 3px;
 
-    color: #f77f00;
+    color: #ff851b;
 }
 small
 {

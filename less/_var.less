@@ -9,16 +9,35 @@
 @import url(normalize.css);
 
 /* COLORS */
-@main-color: black;
-@text-color: black;
-@orange: #f77f00;
+@main-color: @black;
+@text-color: @black;
 
+@navy: #001F3F;
+@blue: #0074D9;
+@aqua: #7FDBFF;
+
+@olive: #3D9970;
+@green: #2ECC40;
+@lime: #01FF70;
+
+@yellow: #FFDC00;
+@orange: #FF851B;
+@red: #FF4136;
+
+@maroon: #85144B;
+@purple: #B10DC9;
+
+@white: #FFFFFF;
+@silver: #DDDDDD;
+@gray: #AAAAAA;
+@black: #111111;
+
+/* SELECTION */
 @selection-color: #fff;
 @selection-background: black;
 
-
-/* CONTAINER WIDTH
-   Usually between 960px and 1200px */	
+/* CONTAINER WIDTH */	
+/* Usually between 960px and 1200px */ 
 @cont-width: 640px;
 @cont-width-tablet: 500px;
 
@@ -28,7 +47,7 @@
 @merriweather: 'Merriweather', Georgia, serif;
 @georgia: Georgia, serif;
 
-
+/* MIXINS */
 .border-radius (@radius) {
 	-webkit-border-radius: @radius;
 	-moz-border-radius:    @radius;
@@ -37,6 +56,12 @@
 	-moz-background-clip:    padding;
 	-webkit-background-clip: padding-box;
 	background-clip:         padding-box;
+}
+
+.box-sizing (@type: border-box) {
+	-webkit-box-sizing: @type;
+	-moz-box-sizing:    @type;
+	box-sizing:         @type;
 }
 
 .opacity (@opacity) {
