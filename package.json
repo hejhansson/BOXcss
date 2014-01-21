@@ -15,9 +15,6 @@
   "dependencies": {
     "grunt": "~0.4.2"
   },
-  "scripts": {
-    "test": "hejhej"
-  },
   "keywords": [
     "BOXcss"
   ],

@@ -1,8 +1,10 @@
 # Welcome to BOXcss
 
-Grunt and Grunt plugins are installed and managed via npm, the Node.js package manager. Read more and download Node.js athttp://nodejs.org/
+
 
 ## Installing Grunt on your computer
+Grunt and Grunt plugins are installed and managed via npm, the Node.js package manager. Read more and download Node.js athttp://nodejs.org/
+
 npm install -g grunt-cli
 	    
 ## Install Grunt on an existing project
