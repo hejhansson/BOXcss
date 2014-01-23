@@ -14,13 +14,8 @@
 	2. BASE
 	3. TYPOGRAPHY
 	4. SITE
-		4.1 HEADER
-		4.2 NAVIGATION
-		4.3 CONTENT
-		4.4 FOOTER
 	5. GRID
 	6. MEDIA QUERIES
-	7. PRINT
 
 /* --------------------------------------------------------------
 	0. IMPORT, MIXINS AND VARIABLES
@@ -338,8 +333,7 @@ p > a
 }
 /* --------------------------------------------------------------
 	4. SITE
-	   Here's were you will be working and styling your
-	   pages.
+	   The styles of your pages will be in this file.
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
 		4. SITE
