@@ -3,12 +3,12 @@
 
 
 ## Installing Grunt on your computer
-Grunt and Grunt plugins are installed and managed via npm, the Node.js package manager. Read more and download Node.js athttp://nodejs.org/
+Grunt and Grunt plugins are installed and managed via npm, the Node.js package manager. Read more and download Node.js at http://nodejs.org/
 
 npm install -g grunt-cli
 	    
 ## Install Grunt on an existing project
-Change to the project's root directory with the terminal. cd path/to/BOXcss-master
+Change to the project's root directory with the terminal. cd path/to/BOXcss-master.
 Install project dependencies with npm install.
 Run Grunt with grunt.
 
