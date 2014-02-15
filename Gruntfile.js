@@ -17,7 +17,7 @@ module.exports = function (grunt) {
     clean: {
       dist: ['dist']
     },
-
+    
     less: {
       dist: {
         files: {
