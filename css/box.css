@@ -5,8 +5,7 @@
 @import url(normalize.css);
 /* --------------------------------------------------------------
 
-	@author Alexander Hansson
- 	@version 1.0
+	BOXcss v1.1
 
 	TABLE OF CONTENTS
 	------------------
@@ -18,10 +17,33 @@
 	5. GRID
 	6. MEDIA QUERIES
 
+
+	The MIT License (MIT)
+
+	Copyright (c) 2014 Alexander Hansson
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.
+
 /* --------------------------------------------------------------
 	0. IMPORT, MIXINS AND VARIABLES
 	   This file contains some useful mixins, font imports
-	   and also variables.
+	   and variables.
 -------------------------------------------------------------- */
 /*----------------------------------------------------------------
 		0. IMPORTS, VARIABLES & MIXINS
@@ -31,7 +53,7 @@
 -------------------------------------------------------------- */
 /* SELECTION */
 /*----------------------------------------------------------------
-		VAR
+		
 -------------------------------------------------------------- */
 /* CONTAINER WIDTH */
 /* Usually between 960px and 1200px */
@@ -40,10 +62,7 @@
 		MIXINS
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
-	1. FIXES
-	   OS7 Fix - some inputs collapse when empty. Disable 
-	   max-width for Google Map images. Some FF and Chrome fixes.
-	   Print-styles are included here.
+	1. FIXES and print styles
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
 		1. FIXES
@@ -208,6 +227,11 @@ embed
             box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    -webkit-font-smoothing: antialiased;
+       -moz-font-smoothing: antialiased;
+         -o-font-smoothing: antialiased;
+            font-smoothing: antialiased;
 }
 html
 {
@@ -249,7 +273,7 @@ a:visited:focus
 /* --------------------------------------------------------------
 	3. TYPOGRAPHY
 	   Headings, and paragraphs. Font-size and line-height adjust 
-	   for opitmal readability. (TODO - blockquote osv)
+	   for opitmal readability. 
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
 		3. TYPOGRAPHY
