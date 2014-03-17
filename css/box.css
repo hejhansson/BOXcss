@@ -2,7 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,900italic,900,700italic,700,400italic,300italic,300);
 @import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
-@import url(normalize.css);
 /* --------------------------------------------------------------
 
 	BOXcss v1.1
@@ -46,18 +45,20 @@
 	   and variables.
 -------------------------------------------------------------- */
 /*----------------------------------------------------------------
-		0. IMPORTS, VARIABLES & MIXINS
+		GRID
 -------------------------------------------------------------- */
+/* CONTAINER WIDTH */
+/* Usually between 960px and 1200px */
 /*----------------------------------------------------------------
 		COLORS
 -------------------------------------------------------------- */
 /* SELECTION */
 /*----------------------------------------------------------------
-		
+		IMPORTS
 -------------------------------------------------------------- */
-/* CONTAINER WIDTH */
-/* Usually between 960px and 1200px */
-/* Fonts */
+/*----------------------------------------------------------------
+		FONTS
+-------------------------------------------------------------- */
 /*----------------------------------------------------------------
 		MIXINS
 -------------------------------------------------------------- */
@@ -398,7 +399,7 @@ p:last-child
 {
     position: relative;
 
-    max-width: 640px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -484,7 +485,7 @@ p:last-child
 {
     .container
     {
-        max-width: 500px;
+        max-width: 700px;
     }
     .tablet-12
     {
