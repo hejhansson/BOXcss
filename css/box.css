@@ -63,156 +63,89 @@
 		MIXINS
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
-	1. FIXES and print styles
+	1. GRID
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
-		1. FIXES
+		1. GRID
 -------------------------------------------------------------- */
-/* Firefox Fix */
-button::-moz-focus-inner,
-input[type=reset]::-moz-focus-inner,
-input[type=button]::-moz-focus-inner,
-input[type=submit]::-moz-focus-inner,
-input[type=file] > input[type=button]::-moz-focus-inner
+.container
 {
-    margin: 0;
-    padding: 0;
+    position: relative;
 
-    border: 0;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
-/* WebKit Fix */
-input[type=search],
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration
+.container:after
 {
-    -webkit-appearance: none;
-}
-[placeholder]:focus::-webkit-input-placeholder
-{
-    color: transparent;
-}
-/* iOS7 Fix - some inputs collapse when empty */
-input[type=text],
-input[type=password],
-input[type=search],
-input[type=email],
-input[type=url],
-input[type=tel],
-input[type=date],
-input[type=time],
-input[type=number]
-{
-    height: 2em;
-}
-/* Disable max-width for Google Map images */
-#map_canvas img,
-.google-maps img
-{
-    max-width: none;
-}
-img,
-object,
-embed
-{
-    display: block;
+    display: table;
+    clear: both;
 
-    width: auto;
-    width: auto\9;
-    max-width: 100%;
-  /* IE Fix */
-    height: auto;
-
-    vertical-align: middle;
-
-    -ms-interpolation-mode: bicubic;
-    border: none;
-    border: 0;
+    content: '';
 }
-/* --------------------------------------------------------------
-		PRINT
--------------------------------------------------------------- */
-@media print
+[class*='box-'],
+.box
 {
-    *
-    {
-        color: #000 !important;
-        background: transparent !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-    a,
-  a:visited
-    {
-        text-decoration: underline;
-    }
-    a[href]:after
-    {
-        content: ' (' attr(href) ')';
-    }
-    abbr[title]:after
-    {
-        content: ' (' attr(title) ')';
-    }
-    .ir a:after,
-  a[href^='javascript:']:after,
-  a[href^='#']:after
-    {
-        content: '';
-    }
-    pre,
-  blockquote
-    {
-        border: 1px solid #999;
-
-        page-break-inside: avoid;
-    }
-    thead
-    {
-        display: table-header-group;
-    }
-    tr,
-  img
-    {
-        page-break-inside: avoid;
-    }
-    img
-    {
-        max-width: 100% !important;
-    }
-  @page {
-        margin: 2cm;
-    }
-    p,
-  h2,
-  h3
-    {
-        orphans: 3;
-        widows: 3;
-    }
-    h2,
-  h3
-    {
-        page-break-after: avoid;
-    }
-}
-/* --------------------------------------------------------------
-		HELP CLASSES
--------------------------------------------------------------- */
-.no-padding
-{
-    padding: 0 !important;
-}
-.no-margin
-{
-    margin: 0 !important;
-}
-.float-l
-{
+    display: inline-block;
     float: left;
+
+    padding: 20px 5px;
 }
-.float-r
+.box-12
 {
-    float: right;
+    width: 100%;
+}
+.box-11
+{
+    width: 91.6%;
+}
+.box-10
+{
+    width: 83.3%;
+}
+.box-9
+{
+    width: 75%;
+}
+.box-8
+{
+    width: 66.6%;
+}
+.box-7
+{
+    width: 58.3%;
+}
+.box-6
+{
+    width: 50%;
+}
+.box-5
+{
+    width: 41.6%;
+}
+.box-4
+{
+    width: 33.3%;
+}
+.box-3
+{
+    width: 25%;
+}
+.box-2
+{
+    width: 16.6%;
+}
+.box-1
+{
+    width: 8.3%;
+}
+.hidden
+{
+    display: none;
+}
+.notvisible
+{
+    visibility: hidden;
 }
 /* --------------------------------------------------------------
 	2. BASE
@@ -390,99 +323,174 @@ p:last-child
 			4.4 FOOTER
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
-	5. GRID
+	5. FIXES and print styles
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
-		5. GRID
+		5. FIXES
 -------------------------------------------------------------- */
-.container
+/* Firefox Fix */
+button::-moz-focus-inner,
+input[type=reset]::-moz-focus-inner,
+input[type=button]::-moz-focus-inner,
+input[type=submit]::-moz-focus-inner,
+input[type=file] > input[type=button]::-moz-focus-inner
 {
-    position: relative;
+    margin: 0;
+    padding: 0;
 
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
+    border: 0;
 }
-.container:after
+/* WebKit Fix */
+input[type=search],
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration
 {
-    display: table;
-    clear: both;
+    -webkit-appearance: none;
+}
+[placeholder]:focus::-webkit-input-placeholder
+{
+    color: transparent;
+}
+/* iOS7 Fix - some inputs collapse when empty */
+input[type=text],
+input[type=password],
+input[type=search],
+input[type=email],
+input[type=url],
+input[type=tel],
+input[type=date],
+input[type=time],
+input[type=number]
+{
+    height: 2em;
+}
+/* Disable max-width for Google Map images */
+#map_canvas img,
+.google-maps img
+{
+    max-width: none;
+}
+img,
+object,
+embed
+{
+    display: block;
 
-    content: '';
+    width: auto;
+    width: auto\9;
+    max-width: 100%;
+  /* IE Fix */
+    height: auto;
+
+    vertical-align: middle;
+
+    -ms-interpolation-mode: bicubic;
+    border: none;
+    border: 0;
 }
-[class*='box-'],
-.box
+/* --------------------------------------------------------------
+		PRINT
+-------------------------------------------------------------- */
+@media print
 {
-    display: inline-block;
+    *
+    {
+        color: #000 !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+  a:visited
+    {
+        text-decoration: underline;
+    }
+    a[href]:after
+    {
+        content: ' (' attr(href) ')';
+    }
+    abbr[title]:after
+    {
+        content: ' (' attr(title) ')';
+    }
+    .ir a:after,
+  a[href^='javascript:']:after,
+  a[href^='#']:after
+    {
+        content: '';
+    }
+    pre,
+  blockquote
+    {
+        border: 1px solid #999;
+
+        page-break-inside: avoid;
+    }
+    thead
+    {
+        display: table-header-group;
+    }
+    tr,
+  img
+    {
+        page-break-inside: avoid;
+    }
+    img
+    {
+        max-width: 100% !important;
+    }
+  @page {
+        margin: 2cm;
+    }
+    p,
+  h2,
+  h3
+    {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+  h3
+    {
+        page-break-after: avoid;
+    }
+}
+/* --------------------------------------------------------------
+		HELP CLASSES
+-------------------------------------------------------------- */
+.no-padding
+{
+    padding: 0 !important;
+}
+.no-margin
+{
+    margin: 0 !important;
+}
+.float-l
+{
     float: left;
+}
+.float-r
+{
+    float: right;
+}
+.centered
+{
+    display: block;
+    float: none;
 
-    padding: 20px 5px;
-}
-.box-12
-{
-    width: 100%;
-}
-.box-11
-{
-    width: 91.6%;
-}
-.box-10
-{
-    width: 83.3%;
-}
-.box-9
-{
-    width: 75%;
-}
-.box-8
-{
-    width: 66.6%;
-}
-.box-7
-{
-    width: 58.3%;
-}
-.box-6
-{
-    width: 50%;
-}
-.box-5
-{
-    width: 41.6%;
-}
-.box-4
-{
-    width: 33.3%;
-}
-.box-3
-{
-    width: 25%;
-}
-.box-2
-{
-    width: 16.6%;
-}
-.box-1
-{
-    width: 8.3%;
-}
-.hidden
-{
-    display: none;
-}
-.notvisible
-{
-    visibility: hidden;
+    margin-right: auto;
+    margin-left: auto;
 }
 /* --------------------------------------------------------------
 	6. MEDIA QUERIES 
 	Your responsive styles here.
 -------------------------------------------------------------- */
-/* --------------------------------------------------------------
-		6. MEDIA QUERIES 
--------------------------------------------------------------- */
 @media screen and (min-width: 540px) and (max-width: 960px)
 {
+  /* --------------------------------------------------------------
+		TABLET STYLES
+-------------------------------------------------------------- */
     .container
     {
         max-width: 700px;
@@ -542,6 +550,9 @@ p:last-child
 }
 @media only screen and (max-width: 540px)
 {
+  /* --------------------------------------------------------------
+		PHONE STYLES
+-------------------------------------------------------------- */
     [class*='box-'],
   [class*='tablet-']
     {
@@ -555,3 +566,7 @@ p:last-child
         display: none;
     }
 }
+/* --------------------------------------------------------------
+		6. MEDIA QUERIES 
+		   Other media queries
+-------------------------------------------------------------- */
