@@ -139,14 +139,6 @@
 {
     width: 8.3%;
 }
-.hidden
-{
-    display: none;
-}
-.notvisible
-{
-    visibility: hidden;
-}
 /* --------------------------------------------------------------
 	2. BASE
 	   Basic styles - links, selection, *-reset.
@@ -193,7 +185,7 @@ body
 a,
 a:visited
 {
-    text-decoration: underline;
+    text-decoration: none;
 
     color: black;
 }
@@ -239,11 +231,43 @@ blockquote
     font-size: 1.125em;
     line-height: 1.6em;
 
+    float: left;
+
     margin: 3em 0;
     margin-left: -40px;
     padding-left: 40px;
 
     border-left: 2px solid #ff851b;
+}
+blockquote.big
+{
+    font-size: 2em;
+
+    display: block;
+
+    width: 120%;
+    margin: 2em 0 2em -10%;
+    padding: 0;
+
+    text-align: center;
+
+    border-left: none;
+}
+@media screen and (min-width: 540px) and (max-width: 960px), only screen and (max-width: 540px)
+{
+    blockquote.big.big
+    {
+        font-size: 1.2em !important;
+        font-size: 2em;
+
+        display: block;
+
+        width: 100%;
+        margin: 2em 0 2em 0;
+        padding: 0;
+
+        border-left: none;
+    }
 }
 .initial:first-letter
 {
@@ -269,9 +293,7 @@ h3
 }
 p > a
 {
-    font-weight: bolder;
-
-    text-decoration: none;
+    text-decoration: underline;
 }
 h1 > a,
 h2 > a,
@@ -473,6 +495,14 @@ embed
 .float-r
 {
     float: right;
+}
+.hidden
+{
+    display: none;
+}
+.notvisible
+{
+    visibility: hidden;
 }
 .centered
 {
