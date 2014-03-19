@@ -1,10 +1,20 @@
-var win   = $(window);
-var doc   = $(document);
-var body  = $('body');
-var $self = $(this);
 
 
-/*  Google Analytics  */
+
+$(document).ready(function() {
+	
+	console.log("i love lamp");
+
+	var win   = $(window);
+	var doc   = $(document);
+	var body  = $('body');
+	var $self = $(this);
+});
+
+/* --------------------------------------------------------------
+		Google Analytics
+-------------------------------------------------------------- */
+
 var googleAnalyticsID = 'UA-';
 
 var _gaq = _gaq || [];
