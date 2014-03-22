@@ -242,6 +242,7 @@ blockquote
 blockquote.big
 {
     font-size: 2em;
+    font-style: italic;
 
     display: block;
     float: left;
@@ -251,6 +252,7 @@ blockquote.big
     padding: 0;
 
     text-align: center;
+    letter-spacing: -.5px;
 
     border-left: none;
 }
@@ -314,6 +316,12 @@ h2
 h3
 {
     font-size: 1.525em;
+}
+p + p.indent
+{
+    margin: -1em 0 1em 0;
+
+    text-indent: 2em;
 }
 p
 {

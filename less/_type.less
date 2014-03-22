@@ -32,6 +32,8 @@ blockquote {
 		margin: 2em 0 2em -10%;
 		padding: 0;
 		text-align: center;
+		font-style: italic; 
+		letter-spacing: -0.5px;
 
 		@media @tablet, @phone {
 			&.big {
@@ -59,7 +61,7 @@ blockquote {
 }
 
 h1,h2,h3 {
-	margin-bottom: 12px; font-weight:normal; line-height: 1em; 
+	margin-bottom: 12px; font-weight:normal; line-height: 1em;
 }
 
 p > a {
@@ -80,6 +82,11 @@ h2 {
 
 h3 { 
 	font-size: 1.525em;
+}
+
+p+p.indent {
+	text-indent: 2em;
+	margin: -1em 0 1em 0;
 }
 
 p {
