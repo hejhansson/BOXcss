@@ -8,14 +8,6 @@ $(document).ready(function() {
 	var body  = $('body');
 	var $self = $(this);
 
-	// If we want to see if the user is using a frikkin' iPhone
-	var isIphone = function() {
-		if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
-			return true;
-		}
-	}
-});
-
 /* --------------------------------------------------------------
 		Google Analytics
 -------------------------------------------------------------- */
