@@ -521,6 +521,43 @@ embed
     margin-right: auto;
     margin-left: auto;
 }
+.btn,
+button
+{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+
+    display: inline-block;
+
+    width: auto;
+    padding: 10px 20px;
+
+    cursor: pointer;
+    text-decoration: none;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: #111;
+}
+.btn:hover,
+button:hover
+{
+    color: #fff;
+}
+.btn.border,
+button.border
+{
+    color: #111;
+    border: 1px solid #111;
+    background: transparent;
+}
+.btn.border:hover,
+button.border:hover
+{
+    color: #fff;
+}
 /* --------------------------------------------------------------
 		PRINT
 -------------------------------------------------------------- */

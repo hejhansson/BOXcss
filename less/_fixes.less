@@ -60,6 +60,34 @@ img, object, embed {border: none;-ms-interpolation-mode: bicubic;display: block;
 
 .centered {margin-right: auto;margin-left: auto;display: block;float: none;}
 
+.btn, button {
+	display: inline-block;
+	width: auto;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 500;
+	text-decoration: none;
+	cursor: pointer;
+	background: @black;
+	color: @white;
+
+	&:hover {
+		color: @white;
+	}
+	
+	&.border {
+	background: transparent;
+	color: @black;
+	border: 1px solid @black;
+
+		&:hover {
+			color: @white;
+		}
+	}
+}
 
 
 
