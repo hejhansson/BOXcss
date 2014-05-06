@@ -36,17 +36,6 @@ module.exports = function (grunt) {
       }
     },
 
-    csscomb: {
-      sort: {
-        options: {
-          sortOrder: '.csscomb.json'
-        },
-        files: {
-          '<%= box.css %>': ['<%= box.css %>'],
-        }
-      }
-    },
-
     usebanner: {
       dist: {
         options: {
@@ -64,7 +53,7 @@ module.exports = function (grunt) {
     watch: {
       less: {
         files: 'less/*.less',
-        tasks: ['less', 'csscomb', 'usebanner'],
+        tasks: ['less', 'usebanner'],
         options: {
           livereload: true,
         }
@@ -74,5 +63,5 @@ module.exports = function (grunt) {
 
   require('load-grunt-tasks')(grunt, {scope: 'devDependencies'});
 
-  grunt.registerTask('default', ['clean', 'less', 'csscomb', 'usebanner']);
+  grunt.registerTask('default', ['clean', 'less', 'usebanner']);
 };
