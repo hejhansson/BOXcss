@@ -1,7 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,900italic,900,700italic,700,400italic,300italic,300);
-@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
 /* --------------------------------------------------------------
 
 	BOXcss v1.1
@@ -45,19 +43,13 @@
 	   and variables.
 -------------------------------------------------------------- */
 /*----------------------------------------------------------------
-		GRID
+		BREAKPOINTS
 -------------------------------------------------------------- */
-/* CONTAINER WIDTH */
-/* Usually between 960px and 1200px */
 /*----------------------------------------------------------------
 		COLORS
 -------------------------------------------------------------- */
-/* SELECTION */
 /*----------------------------------------------------------------
-		IMPORTS
--------------------------------------------------------------- */
-/*----------------------------------------------------------------
-		FONTS
+		TYPOGRAPHY
 -------------------------------------------------------------- */
 /*----------------------------------------------------------------
 		MIXINS
@@ -160,13 +152,13 @@ body {
 a,
 a:visited {
   text-decoration: none;
-  color: black;
+  color: #ff851b;
 }
 a:hover,
 a:visited:hover,
 a:focus,
 a:visited:focus {
-  color: black;
+  color: #ce6000;
 }
 /* --------------------------------------------------------------
 	3. TYPOGRAPHY
@@ -186,9 +178,10 @@ strong {
   font-weight: 700;
 }
 body {
-  font-size: 100%;
+  font-size: 1.125em;
   font-family: Georgia, serif;
-  color: #111111;
+  line-height: 1.7;
+  color: #333333;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -200,38 +193,6 @@ blockquote {
   border-left: 2px solid #ff851b;
   margin: 3em 0;
   float: left;
-}
-blockquote.big {
-  border-left: none;
-  font-size: 2em;
-  width: 120%;
-  float: left;
-  display: block;
-  margin: 2em 0 2em -10%;
-  padding: 0;
-  text-align: center;
-  font-style: italic;
-  letter-spacing: -0.5px;
-}
-@media screen and (min-width: 540px) and (max-width: 960px), only screen and (max-width: 540px) {
-  blockquote.big.big {
-    font-size: 1.2em !important;
-    border-left: none;
-    font-size: 2em;
-    width: 100%;
-    display: block;
-    margin: 2em 0 2em 0;
-    padding: 0;
-  }
-}
-.initial:first-letter {
-  float: left;
-  color: #ff851b;
-  font-size: 4.4em;
-  line-height: 60px;
-  padding-top: 8px;
-  padding-right: 12px;
-  padding-left: 3px;
 }
 h1,
 h2,
@@ -263,8 +224,6 @@ p + p.indent {
   margin: -1em 0 1em 0;
 }
 p {
-  font-size: 1.125em;
-  line-height: 145%;
   display: block;
   margin: 0 0 1em 0;
 }
@@ -433,7 +392,7 @@ button {
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
-  background: #111111;
+  background: #333333;
   color: #ffffff;
 }
 .btn:hover,
@@ -443,8 +402,8 @@ button:hover {
 .btn.border,
 button.border {
   background: transparent;
-  color: #111111;
-  border: 1px solid #111111;
+  color: #333333;
+  border: 1px solid #333333;
 }
 .btn.border:hover,
 button.border:hover {

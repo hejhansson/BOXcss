@@ -7,8 +7,9 @@ em{font-style: italic;}
 strong{font-weight: 700;}
 
 body {
-	font-size: 150%/1.5;
+	font-size: @base-fontsize;
 	font-family: @georgia;
+	line-height: @base-lineheight;
 	color: @text-color;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -22,42 +23,6 @@ blockquote {
 	border-left: 2px solid @orange;
 	margin: 3em 0;
 	float: left;
-
-	&.big {
-		border-left:none;
-		font-size: 2em;
-		width: 120%;
-		float: left;
-		display: block;
-		margin: 2em 0 2em -10%;
-		padding: 0;
-		text-align: center;
-		font-style: italic; 
-		letter-spacing: -0.5px;
-
-		@media @tablet, @phone {
-			&.big {
-				font-size: 1.2em !important;
-				border-left:none;
-				font-size: 2em;
-				width: 100%;
-				display: block;
-				margin: 2em 0 2em 0;
-				padding: 0;
-			}
-		}
-	}
-}
-
-
-.initial:first-letter {
-	float: left; 
-	color: @orange; 
-	font-size: 4.4em; 
-	line-height: 60px; 
-	padding-top: 8px; 
-	padding-right: 12px; 
-	padding-left: 3px; 
 }
 
 h1,h2,h3 {
@@ -90,8 +55,6 @@ p+p.indent {
 }
 
 p {
-	font-size: @base-fontsize;
-	line-height:145%;
 	display: block;
 	margin: 0 0 1em 0; 
 
