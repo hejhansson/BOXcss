@@ -10,9 +10,10 @@
 	1. FIXES
 	2. BASE
 	3. TYPOGRAPHY
-	4. SITE
+	4. PARTIALS
 	5. GRID
-	6. MEDIA QUERIES
+	6. HELP CLASSES
+	7. MEDIA QUERIES
 
 
 	The MIT License (MIT)
@@ -231,8 +232,8 @@ p:last-child {
   margin: 0;
 }
 /* --------------------------------------------------------------
-	4. SITE
-	   The styles of your pages will be in this file.
+	4. PARTIALS
+	   The styles of your pages will be in these files.
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
 		4. SITE
@@ -304,7 +305,64 @@ embed {
   border: 0;
 }
 /* --------------------------------------------------------------
-		HELP CLASSES
+		PRINT
+-------------------------------------------------------------- */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 2cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* --------------------------------------------------------------
+	6. HELP CLASSES
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+		6. HELP CLASSES
 -------------------------------------------------------------- */
 .no-padding {
   padding: 0 !important;
@@ -360,6 +418,13 @@ embed {
 .mb20 {
   margin-bottom: 20px;
 }
+.centered {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  float: none;
+}
+/* You might wanna change this */
 @media only screen and (max-width: 540px) {
   [class*='mb'] {
     margin-bottom: 0;
@@ -373,12 +438,6 @@ embed {
   [class*='pt'] {
     padding-top: 0;
   }
-}
-.centered {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  float: none;
 }
 .btn,
 button {
@@ -410,62 +469,10 @@ button.border:hover {
   color: #ffffff;
 }
 /* --------------------------------------------------------------
-		PRINT
--------------------------------------------------------------- */
-@media print {
-  * {
-    background: transparent !important;
-    color: #000 !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-  .ir a:after,
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
-    content: "";
-  }
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-  thead {
-    display: table-header-group;
-  }
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-  img {
-    max-width: 100% !important;
-  }
-  @page {
-    margin: 2cm;
-  }
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-}
-/* --------------------------------------------------------------
-	6. MEDIA QUERIES 
-	Your responsive styles here.
+	7. MEDIA QUERIES 
+	Your responsive styles here. If not clear — tablet styles
+	in _tablet.less. Phone styles in _phone.less. The last 
+	file includes other media queries, like 2x.
 -------------------------------------------------------------- */
 @media screen and (min-width: 540px) and (max-width: 960px) {
   /* --------------------------------------------------------------
@@ -529,6 +536,6 @@ button.border:hover {
   }
 }
 /* --------------------------------------------------------------
-		6. MEDIA QUERIES 
+		7. MEDIA QUERIES 
 		   Other media queries
 -------------------------------------------------------------- */

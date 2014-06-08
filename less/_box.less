@@ -8,9 +8,10 @@
 	1. FIXES
 	2. BASE
 	3. TYPOGRAPHY
-	4. SITE
+	4. PARTIALS
 	5. GRID
-	6. MEDIA QUERIES
+	6. HELP CLASSES
+	7. MEDIA QUERIES
 
 
 	The MIT License (MIT)
@@ -65,11 +66,13 @@
 	@import "_type.less";
 
 /* --------------------------------------------------------------
-	4. SITE
-	   The styles of your pages will be in this file.
+	4. PARTIALS
+	   The styles of your pages will be in these files.
 -------------------------------------------------------------- */
 
-	@import "_site.less";
+	@import "/partials/_header.less";
+	@import "/partials/_site.less";
+	@import "/partials/_footer.less";
 
 /* --------------------------------------------------------------
 	5. FIXES and print styles
@@ -79,8 +82,16 @@
 
 
 /* --------------------------------------------------------------
-	6. MEDIA QUERIES 
-	Your responsive styles here.
+	6. HELP CLASSES
+-------------------------------------------------------------- */
+
+	@import "_help--classes.less";
+
+/* --------------------------------------------------------------
+	7. MEDIA QUERIES 
+	Your responsive styles here. If not clear — tablet styles
+	in _tablet.less. Phone styles in _phone.less. The last 
+	file includes other media queries, like 2x.
 -------------------------------------------------------------- */
 	
 	@media @tablet {
@@ -90,5 +101,5 @@
 	@media @phone {
 		@import "_phone.less";
 	}
-
-		@import "_responsiveness.less";
+		
+	@import "_media--queries.less";
