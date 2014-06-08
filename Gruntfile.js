@@ -52,7 +52,7 @@ module.exports = function (grunt) {
 
     watch: {
       less: {
-        files: 'less/*.less',
+        files: ['less/partials/*.less','less/*.less'],
         tasks: ['less', 'usebanner'],
         options: {
           livereload: true,
