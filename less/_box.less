@@ -4,7 +4,7 @@
 
 	TABLE OF CONTENTS
 	------------------
-	0. IMPORTS & VARIABLES
+	0. IMPORTS, MIXINS & VARIABLES
 	1. FIXES
 	2. BASE
 	3. TYPOGRAPHY
@@ -12,6 +12,7 @@
 	5. GRID
 	6. HELP CLASSES
 	7. MEDIA QUERIES
+	8. OTHER
 
 
 	The MIT License (MIT)
@@ -38,11 +39,10 @@
 
 /* --------------------------------------------------------------
 	0. IMPORT, MIXINS AND VARIABLES
-	   This file contains some useful mixins, font imports
-	   and variables.
 -------------------------------------------------------------- */
 
-	@import "_var.less";
+	@import "_settings.less";
+	@import "/base/_mixins.less";
 
 /* --------------------------------------------------------------
 	1. GRID
@@ -52,46 +52,39 @@
 
 /* --------------------------------------------------------------
 	2. BASE
-	   Basic styles - links, selection, *-reset.
 -------------------------------------------------------------- */
 
 	@import "_base.less";
 
 /* --------------------------------------------------------------
-	3. TYPOGRAPHY
-	   Headings, and paragraphs. Font-size and line-height adjust 
-	   for opitmal readability. 
+	3. TYPOGRAPHY 
 -------------------------------------------------------------- */
 
-	@import "_type.less";
+	@import "/base/_type.less";
 
 /* --------------------------------------------------------------
-	4. PARTIALS
-	   The styles of your pages will be in these files.
+	4. LAYOUT
 -------------------------------------------------------------- */
 
-	@import "/partials/_header.less";
-	@import "/partials/_site.less";
-	@import "/partials/_footer.less";
+	@import "/layout/_header.less";
+	@import "/layout/_content.less";
+	@import "/layout/_footer.less";
 
 /* --------------------------------------------------------------
-	5. FIXES and print styles
+	5. PRINT
 -------------------------------------------------------------- */
 
-	@import "_fixes.less";
+	@import "/base/_print.less";
 
 
 /* --------------------------------------------------------------
 	6. HELP CLASSES
 -------------------------------------------------------------- */
 
-	@import "_help--classes.less";
+	@import "_helpers.less";
 
 /* --------------------------------------------------------------
 	7. MEDIA QUERIES 
-	Your responsive styles here. If not clear — tablet styles
-	in _tablet.less. Phone styles in _phone.less. The last 
-	file includes other media queries, like 2x.
 -------------------------------------------------------------- */
 	
 	@media @tablet {
@@ -101,5 +94,14 @@
 	@media @phone {
 		@import "_phone.less";
 	}
+
+/* --------------------------------------------------------------
+	8. OTHER
+-------------------------------------------------------------- */
+	
+	@import "/base/_btn.less";
+
+
+
+
 		
-	@import "_media--queries.less";
