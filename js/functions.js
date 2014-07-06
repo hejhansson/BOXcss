@@ -8,4 +8,4 @@ $(document).ready(function() {
 	var body  = $('body');
 	var $self = $(this);
 
-)};
+});

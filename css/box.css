@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
 /* --------------------------------------------------------------
 
@@ -6,7 +5,7 @@
 
 	TABLE OF CONTENTS
 	------------------
-	0. IMPORTS & VARIABLES
+	0. IMPORTS, MIXINS & VARIABLES
 	1. FIXES
 	2. BASE
 	3. TYPOGRAPHY
@@ -14,6 +13,7 @@
 	5. GRID
 	6. HELP CLASSES
 	7. MEDIA QUERIES
+	8. OTHER
 
 
 	The MIT License (MIT)
@@ -40,8 +40,6 @@
 
 /* --------------------------------------------------------------
 	0. IMPORT, MIXINS AND VARIABLES
-	   This file contains some useful mixins, font imports
-	   and variables.
 -------------------------------------------------------------- */
 /*----------------------------------------------------------------
 		BREAKPOINTS
@@ -116,7 +114,6 @@
 }
 /* --------------------------------------------------------------
 	2. BASE
-	   Basic styles - links, selection, *-reset.
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
 		2. BASE
@@ -162,9 +159,7 @@ a:visited:focus {
   color: #ce6000;
 }
 /* --------------------------------------------------------------
-	3. TYPOGRAPHY
-	   Headings, and paragraphs. Font-size and line-height adjust 
-	   for opitmal readability. 
+	3. TYPOGRAPHY 
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
 		3. TYPOGRAPHY
@@ -232,8 +227,7 @@ p:last-child {
   margin: 0;
 }
 /* --------------------------------------------------------------
-	4. PARTIALS
-	   The styles of your pages will be in these files.
+	4. LAYOUT
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
 		4. SITE
@@ -249,63 +243,10 @@ p:last-child {
 			4.4 FOOTER
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
-	5. FIXES and print styles
+	5. PRINT
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
-		5. FIXES
--------------------------------------------------------------- */
-/* Firefox Fix */
-button::-moz-focus-inner,
-input[type=reset]::-moz-focus-inner,
-input[type=button]::-moz-focus-inner,
-input[type=submit]::-moz-focus-inner,
-input[type=file] > input[type=button]::-moz-focus-inner {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-/* WebKit Fix */
-input[type=search],
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-[placeholder]:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-/* iOS7 Fix - some inputs collapse when empty */
-input[type=text],
-input[type=password],
-input[type=search],
-input[type=email],
-input[type=url],
-input[type=tel],
-input[type=date],
-input[type=time],
-input[type=number] {
-  height: 2em;
-}
-/* Disable max-width for Google Map images */
-#map_canvas img,
-.google-maps img {
-  max-width: none;
-}
-img,
-object,
-embed {
-  border: none;
-  -ms-interpolation-mode: bicubic;
-  display: block;
-  vertical-align: middle;
-  max-width: 100%;
-  width: auto;
-  width: auto\9;
-  /* IE Fix */
-  height: auto;
-  border: 0;
-}
-/* --------------------------------------------------------------
-		PRINT
+		5. PRINT
 -------------------------------------------------------------- */
 @media print {
   * {
@@ -364,16 +305,16 @@ embed {
 /* --------------------------------------------------------------
 		6. HELP CLASSES
 -------------------------------------------------------------- */
-.no-padding {
+.np {
   padding: 0 !important;
 }
-.no-margin {
+.nm {
   margin: 0 !important;
 }
-.float-l {
+.fl {
   float: left;
 }
-.float-r {
+.fr {
   float: right;
 }
 .hidden {
@@ -424,55 +365,61 @@ embed {
   display: block;
   float: none;
 }
-/* You might wanna change this */
-@media only screen and (max-width: 540px) {
-  [class*='mb'] {
-    margin-bottom: 0;
-  }
-  [class*='mt'] {
-    margin-top: 0;
-  }
-  [class*='pb'] {
-    padding-bottom: 0;
-  }
-  [class*='pt'] {
-    padding-top: 0;
-  }
+/* --------------------------------------------------------------
+		FIXES
+-------------------------------------------------------------- */
+/* Firefox Fix */
+button::-moz-focus-inner,
+input[type=reset]::-moz-focus-inner,
+input[type=button]::-moz-focus-inner,
+input[type=submit]::-moz-focus-inner,
+input[type=file] > input[type=button]::-moz-focus-inner {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
-.btn,
-button {
-  display: inline-block;
-  width: auto;
-  padding: 10px 20px;
+/* WebKit Fix */
+input[type=search],
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+/* iOS7 Fix - some inputs collapse when empty */
+input[type=text],
+input[type=password],
+input[type=search],
+input[type=email],
+input[type=url],
+input[type=tel],
+input[type=date],
+input[type=time],
+input[type=number] {
+  height: 2em;
+}
+/* Disable max-width for Google Map images */
+#map_canvas img,
+.google-maps img {
+  max-width: none;
+}
+img,
+object,
+embed {
   border: none;
-  border-radius: 5px;
-  font-size: 13px;
-  line-height: 18px;
-  font-weight: 500;
-  text-decoration: none;
-  cursor: pointer;
-  background: #333333;
-  color: #ffffff;
-}
-.btn:hover,
-button:hover {
-  color: #ffffff;
-}
-.btn.border,
-button.border {
-  background: transparent;
-  color: #333333;
-  border: 1px solid #333333;
-}
-.btn.border:hover,
-button.border:hover {
-  color: #ffffff;
+  -ms-interpolation-mode: bicubic;
+  display: block;
+  vertical-align: middle;
+  max-width: 100%;
+  width: auto;
+  width: auto\9;
+  /* IE Fix */
+  height: auto;
+  border: 0;
 }
 /* --------------------------------------------------------------
 	7. MEDIA QUERIES 
-	Your responsive styles here. If not clear — tablet styles
-	in _tablet.less. Phone styles in _phone.less. The last 
-	file includes other media queries, like 2x.
 -------------------------------------------------------------- */
 @media screen and (min-width: 540px) and (max-width: 960px) {
   /* --------------------------------------------------------------
@@ -536,6 +483,27 @@ button.border:hover {
   }
 }
 /* --------------------------------------------------------------
-		7. MEDIA QUERIES 
-		   Other media queries
+	8. OTHER
 -------------------------------------------------------------- */
+/* --------------------------------------------------------------
+		BUTTONS
+-------------------------------------------------------------- */
+.btn,
+button {
+  display: inline-block;
+  width: auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  background: #333333;
+  color: #ffffff;
+}
+.btn:hover,
+button:hover {
+  color: #ffffff;
+}
