@@ -1,6 +1,6 @@
 {
   "name": "BOXcss",
-  "version": "1.2",
+  "version": "1.2.0",
   "description": "Simple CSS framework",
   "devDependencies": {
     "grunt": "~0.4.2",
