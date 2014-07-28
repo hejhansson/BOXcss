@@ -119,8 +119,6 @@
 		2. BASE
 -------------------------------------------------------------- */
 * {
-  margin: 0;
-  padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -128,6 +126,13 @@
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 html {
   overflow-y: scroll;
@@ -505,5 +510,6 @@ button {
 }
 .btn:hover,
 button:hover {
-  color: #ffffff;
+  color: #dddddd;
+  background: #aaaaaa;
 }
