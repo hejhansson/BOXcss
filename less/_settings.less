@@ -13,6 +13,12 @@
 		COLORS
 -------------------------------------------------------------- */
 
+@primary:       @blue;
+@primary-dark:  darken(@blue, 25%);
+
+@secondary:     @yellow;
+@secondary-dark:darken(@yellow, 25%);
+
 @navy: 			#001F3F;
 @blue: 			#0074D9;
 @aqua: 			#7FDBFF;
@@ -37,18 +43,15 @@
 		TYPOGRAPHY
 -------------------------------------------------------------- */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
-
 @base-fontsize: 		1.125em;
 @base-lineheight: 		1.7;
 
-@selection-color: 		#fff;
+@selection-color: 		@black;
 @selection-background: 	black;
 
 @text-color: 			@black;
 
-@linkColor: 			@orange;
+@linkColor: 			@primary;
 @linkHoverColor: 		darken(@linkColor, 15%);
 
-@opensans:				'Open Sans', helvetica, sans-serif;
 @georgia:				Georgia, serif;

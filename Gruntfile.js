@@ -54,14 +54,11 @@ module.exports = function (grunt) {
       less: {
         files: ['less/layout/*.less',' less/base/*.less', 'less/*.less'],
         tasks: ['less', 'usebanner'],
-        options: {
-          livereload: true,
-        }
       }
     }
   });
 
   require('load-grunt-tasks')(grunt, {scope: 'devDependencies'});
 
-  grunt.registerTask('default', ['clean', 'less', 'usebanner']);
+  grunt.registerTask('default', ['clean', 'less', 'usebanner', 'watch']);
 };
