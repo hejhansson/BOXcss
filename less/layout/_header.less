@@ -3,10 +3,55 @@
 			4.1 HEADER
 -------------------------------------------------------------- */
 
-header {}
+header {
+  padding: 40px 0;
 
-/* --------------------------------------------------------------
-			4.2 NAVIGATION
--------------------------------------------------------------- */
+  .logo {
+    display: inline-block;
+    margin: -1.4rem 0 0 0;
+    padding: 0;
 
-nav[role=navigation] {}
+    img {
+      width: 80px;
+
+      &:hover {
+        .opacity(.5);
+      }
+    }
+
+    @media @phone {
+      text-align: center;
+
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  nav[role=navigation] {
+
+    .primary-nav {
+      text-align: right;
+
+      @media @phone {
+        text-align: center;
+      }
+
+      .primary-nav__item {
+        display: inline;
+        margin-left: 35px;
+
+        @media @phone {
+          margin: 0 20px;
+        }
+
+        .primary-nav__link {
+
+          &:hover {
+
+          }
+        }
+      }
+    }
+  }
+}

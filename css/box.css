@@ -154,13 +154,13 @@ body {
 a,
 a:visited {
   text-decoration: none;
-  color: #0074d9;
+  color: #ffdc77;
 }
 a:hover,
 a:visited:hover,
 a:focus,
 a:visited:focus {
-  color: #004b8d;
+  color: #ffc82a;
 }
 /* --------------------------------------------------------------
 	3. TYPOGRAPHY 
@@ -186,7 +186,7 @@ blockquote {
   line-height: 1.7;
   padding-left: 40px;
   margin-left: -40px;
-  border-left: 1rem solid #5ab2ff;
+  border-left: 1rem solid #fffdf6;
   margin: 3rem 0;
   float: left;
   background: #dddddd;
@@ -221,7 +221,7 @@ h2 > a,
 h3 > a,
 h4 > a {
   text-decoration: none;
-  color: #0074d9;
+  color: #ffdc77;
 }
 h1 {
   font-size: 5rem;
@@ -250,9 +250,47 @@ p:last-child {
 		4. SITE
 			4.1 HEADER
 -------------------------------------------------------------- */
-/* --------------------------------------------------------------
-			4.2 NAVIGATION
--------------------------------------------------------------- */
+header {
+  padding: 40px 0;
+}
+header .logo {
+  display: inline-block;
+  margin: -1.4rem 0 0 0;
+  padding: 0;
+}
+header .logo img {
+  width: 80px;
+}
+header .logo img:hover {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+@media only screen and (max-width: 540px) {
+  header .logo {
+    text-align: center;
+  }
+  header .logo img {
+    margin: 0 auto;
+  }
+}
+header nav[role=navigation] .primary-nav {
+  text-align: right;
+}
+@media only screen and (max-width: 540px) {
+  header nav[role=navigation] .primary-nav {
+    text-align: center;
+  }
+}
+header nav[role=navigation] .primary-nav .primary-nav__item {
+  display: inline;
+  margin-left: 35px;
+}
+@media only screen and (max-width: 540px) {
+  header nav[role=navigation] .primary-nav .primary-nav__item {
+    margin: 0 20px;
+  }
+}
 /* --------------------------------------------------------------
 			4.3 CONTENT
 -------------------------------------------------------------- */
@@ -509,7 +547,7 @@ embed {
 button {
   display: inline-block;
   width: auto;
-  padding: 1rem 3rem;
+  padding: .8rem 2rem;
   border: none;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -523,12 +561,12 @@ button {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  background: #0074d9;
+  background: #ffdc77;
   /* mhm I know */
   color: #ffffff !important;
 }
 .btn:hover,
 button:hover {
   color: #dddddd;
-  background: #00305a;
+  background: #f6b700;
 }
