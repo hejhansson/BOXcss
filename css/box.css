@@ -154,13 +154,13 @@ body {
 a,
 a:visited {
   text-decoration: none;
-  color: #ffdc77;
+  color: #cd6a51;
 }
 a:hover,
 a:visited:hover,
 a:focus,
 a:visited:focus {
-  color: #ffc82a;
+  color: #a3462f;
 }
 /* --------------------------------------------------------------
 	3. TYPOGRAPHY 
@@ -186,7 +186,7 @@ blockquote {
   line-height: 1.7;
   padding-left: 40px;
   margin-left: -40px;
-  border-left: 1rem solid #fffdf6;
+  border-left: 1rem solid #de9d8c;
   margin: 3rem 0;
   float: left;
   background: #dddddd;
@@ -221,7 +221,7 @@ h2 > a,
 h3 > a,
 h4 > a {
   text-decoration: none;
-  color: #ffdc77;
+  color: #cd6a51;
 }
 h1 {
   font-size: 5rem;
@@ -262,9 +262,9 @@ header .logo img {
   width: 80px;
 }
 header .logo img:hover {
-  -webkit-opacity: 0.5;
-  -moz-opacity: 0.5;
-  opacity: 0.5;
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
 }
 @media only screen and (max-width: 540px) {
   header .logo {
@@ -561,12 +561,12 @@ button {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  background: #ffdc77;
+  background: #cd6a51;
   /* mhm I know */
   color: #ffffff !important;
 }
 .btn:hover,
 button:hover {
   color: #dddddd;
-  background: #f6b700;
+  background: #7b3523;
 }

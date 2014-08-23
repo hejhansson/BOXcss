@@ -5,28 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="729ee642-d0ff-4d05-9f90-bb3f921d913f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/base/_base.less" afterPath="$PROJECT_DIR$/less/base/_base.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/base/_btn.less" afterPath="$PROJECT_DIR$/less/base/_btn.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/layout/_content.less" afterPath="$PROJECT_DIR$/less/layout/_content.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/base/_grid.less" afterPath="$PROJECT_DIR$/less/base/_grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/box.png" afterPath="$PROJECT_DIR$/images/box.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/layout/_header.less" afterPath="$PROJECT_DIR$/less/layout/_header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/base/_mixins.less" afterPath="$PROJECT_DIR$/less/base/_mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/layout/_phone.less" afterPath="$PROJECT_DIR$/less/layout/_phone.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/_settings.less" afterPath="$PROJECT_DIR$/less/_settings.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/layout/_tablet.less" afterPath="$PROJECT_DIR$/less/layout/_tablet.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/base/_type.less" afterPath="$PROJECT_DIR$/less/base/_type.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/box.css" afterPath="$PROJECT_DIR$/css/box.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/box.min.css" afterPath="$PROJECT_DIR$/css/box.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/functions.js" afterPath="$PROJECT_DIR$/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="box.css.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="729ee642-d0ff-4d05-9f90-bb3f921d913f" time="1408395404187" ignored="false" />
-    <file path="/dummy.txt" changelist="729ee642-d0ff-4d05-9f90-bb3f921d913f" time="1408396113667" ignored="false" />
-    <file path="/_settings.less" changelist="729ee642-d0ff-4d05-9f90-bb3f921d913f" time="1408396106347" ignored="false" />
+    <file path="/Dummy.txt" changelist="729ee642-d0ff-4d05-9f90-bb3f921d913f" time="1408630283298" ignored="false" />
+    <file path="/dummy.txt" changelist="729ee642-d0ff-4d05-9f90-bb3f921d913f" time="1408477392826" ignored="false" />
+    <file path="/_settings.less" changelist="729ee642-d0ff-4d05-9f90-bb3f921d913f" time="1408477385861" ignored="false" />
     <file path="/Gruntfile.js" changelist="729ee642-d0ff-4d05-9f90-bb3f921d913f" time="1408269425871" ignored="false" />
     <file path="/_type.less" changelist="729ee642-d0ff-4d05-9f90-bb3f921d913f" time="1408277141163" ignored="false" />
     <file path="/_btn.less" changelist="729ee642-d0ff-4d05-9f90-bb3f921d913f" time="1408292492919" ignored="false" />
@@ -61,7 +51,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="47" column="70" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.5852843">
+                <state line="47" column="70" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.016722407">
                   <folding />
                 </state>
               </provider>
@@ -83,7 +73,7 @@
           <file leaf-file-name="_settings.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/less/_settings.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="0" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+                <state line="21" column="39" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -92,7 +82,7 @@
           <file leaf-file-name="_header.less" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/layout/_header.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="26" selection-start="222" selection-end="222" vertical-scroll-proportion="0.14453961">
+                <state line="28" column="3" selection-start="450" selection-end="450" vertical-scroll-proportion="0.4496788">
                   <folding />
                 </state>
               </provider>
@@ -164,6 +154,7 @@
       <command text="grunt" />
       <command text="grunt" />
       <command text="grunt" />
+      <command text="grunt" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -173,9 +164,6 @@
     <option name="myDateState">
       <MyDateState />
     </option>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -192,8 +180,8 @@
         <option value="$PROJECT_DIR$/less/layout/_tablet.less" />
         <option value="$PROJECT_DIR$/less/_box.less" />
         <option value="$PROJECT_DIR$/js/functions.js" />
-        <option value="$PROJECT_DIR$/less/_settings.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/less/_settings.less" />
         <option value="$PROJECT_DIR$/less/layout/_header.less" />
       </list>
     </option>
@@ -309,9 +297,9 @@
     <property name="options.lastSelected" value="preferences.sourceCode.CSS" />
     <property name="last_opened_file_path" value="/Applications/XAMPP/xamppfiles/htdocs/homeopat/wp-content/themes/start-tema" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -347,16 +335,15 @@
     <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.114727855" sideWeight="0.67151767" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11792956" sideWeight="0.67151767" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -365,6 +352,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -428,25 +416,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/base/_grid.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/base/_base.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/layout/_content.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="0" selection-end="219" vertical-scroll-proportion="0.12759924" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/layout/_footer.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -465,13 +434,6 @@
     <entry file="file://$PROJECT_DIR$/less/_box.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="0" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.31190926" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/base/_btn.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/grunt/lib/grunt/help.js">
@@ -494,6 +456,13 @@
         <state line="25" column="38" selection-start="564" selection-end="564" vertical-scroll-proportion="0.3507795" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="70" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.016722407">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
@@ -501,23 +470,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/_settings.less">
+    <entry file="file://$PROJECT_DIR$/less/base/_base.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+        <state line="13" column="18" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/less/base/_grid.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="70" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.5852843">
+        <state line="12" column="19" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/base/_btn.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/base/_type.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="21" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/_settings.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="39" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/layout/_header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="222" selection-end="222" vertical-scroll-proportion="0.14453961">
+        <state line="28" column="3" selection-start="450" selection-end="450" vertical-scroll-proportion="0.4496788">
           <folding />
         </state>
       </provider>
