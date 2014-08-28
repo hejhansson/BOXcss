@@ -17,3 +17,5 @@ build
 
 node_modules
 libs
+.idea
+Box.css/.idea
