@@ -1,0 +1,34 @@
+/* --------------------------------------------------------------
+	FORM
+-------------------------------------------------------------- */
+form {
+  input[type="text"], input[type="password"] {
+    display: block;
+    border-radius: .3rem;
+    border: .1rem solid #cbcbcb;
+    padding: 1rem;
+
+    & + input {
+      margin-bottom: 1rem;
+    }
+
+    &:focus {
+      outline: 0;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      background: #eee;
+      border: .1rem solid #999;
+    }
+  }
+
+  input[type="submit"] {
+    .button();
+    margin-top: 1.6rem;
+  }
+
+  p {
+    margin: 0;
+  }
+}

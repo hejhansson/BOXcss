@@ -88,7 +88,6 @@
 	7. MEDIA QUERIES 
 -------------------------------------------------------------- */
 
-   & when (@mediaqueries = true) {
         @media @tablet {
             @import "/layout/_tablet.less";
         }
@@ -96,7 +95,6 @@
         @media @phone {
             @import "/layout/_phone.less";
         }
-   }
 
 /* --------------------------------------------------------------
 	8. PARTIALS
@@ -112,6 +110,10 @@
 
     & when (@lists = true) {
       @import "/partials/_lists.less";
+    }
+
+    & when (@form = true) {
+      @import "/partials/_form.less";
     }
 
 
