@@ -48,10 +48,10 @@
 		BREAKPOINTS
 -------------------------------------------------------------- */
 /*----------------------------------------------------------------
-		COLORS
+		TYPOGRAPHY
 -------------------------------------------------------------- */
 /*----------------------------------------------------------------
-		TYPOGRAPHY
+		COLORS
 -------------------------------------------------------------- */
 /*----------------------------------------------------------------
 		MIXINS
@@ -189,6 +189,11 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+@media only screen and (max-width: 540px) {
+  body {
+    font-size: 1.6rem;
+  }
+}
 blockquote {
   font-size: 1.8rem;
   line-height: 1.7;
@@ -199,6 +204,11 @@ blockquote {
   float: left;
   background: #dddddd;
   padding: 2rem 2rem 2rem 3rem;
+}
+@media only screen and (max-width: 540px) {
+  blockquote {
+    font-size: 1.6rem;
+  }
 }
 blockquote small {
   display: block;
@@ -234,11 +244,26 @@ h4 > a {
 h1 {
   font-size: 5rem;
 }
+@media only screen and (max-width: 540px) {
+  h1 {
+    font-size: 3.3rem;
+  }
+}
 h2 {
   font-size: 3.1rem;
 }
+@media only screen and (max-width: 540px) {
+  h2 {
+    font-size: 2.4rem;
+  }
+}
 h3 {
   font-size: 2.4rem;
+}
+@media only screen and (max-width: 540px) {
+  h3 {
+    font-size: 2rem;
+  }
 }
 p + p.indent {
   text-indent: 2rem;
@@ -553,7 +578,7 @@ embed {
   line-height: 1;
   color: #333333;
   display: inline-block;
-  padding: 1.3rem 1rem;
+  padding: 1.12rem 1rem;
   text-decoration: none;
   font-family: sans-serif;
   text-align: center;
@@ -587,6 +612,20 @@ embed {
 .btn--black:link:active,
 .btn--black:visited:active {
   border: 0.1rem solid #cd6a51;
+}
+.btn--primary,
+.btn--primary:link,
+.btn--primary:visited {
+  background: #cd6a51;
+  border: 0.1rem solid #cd6a51;
+  color: #ffffff;
+}
+.btn--primary:hover,
+.btn--primary:link:hover,
+.btn--primary:visited:hover {
+  border: 0.1rem solid #b74f34;
+  background: #b74f34;
+  color: #ffffff;
 }
 @media only screen and (max-width: 540px) {
   .btn--full {

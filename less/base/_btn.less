@@ -10,7 +10,7 @@
   line-height: 1;
   color: @black;
   display: inline-block;
-  padding: 1.3rem 1rem;
+  padding: 1.12rem 1rem;
   text-decoration: none;
   font-family: sans-serif;
   text-align: center;
@@ -41,6 +41,22 @@
   &:active {
     border: .1rem solid @primary;
   }
+}
+
+.btn--primary,
+.btn--primary:link,
+.btn--primary:visited {
+  background: @primary;
+  border: .1rem solid @primary;
+  color: @white;
+
+  &:hover {
+    border: .1rem solid darken(@primary, 10%);
+    background: darken(@primary, 10%);
+    color: @white;
+  }
+
+  &:active {}
 }
 
 .btn--full {
