@@ -52,7 +52,7 @@ module.exports = function (grunt) {
 
     watch: {
       less: {
-        files: ['less/layout/*.less',' less/base/*.less', 'less/*.less'],
+        files: ['less/layout/*.less',' less/base/*.less', 'less/*.less', 'less/partials/*.less'],
         tasks: ['less', 'usebanner'],
       }
     }

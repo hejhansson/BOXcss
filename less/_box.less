@@ -12,7 +12,7 @@
 	5. GRID
 	6. HELP CLASSES
 	7. MEDIA QUERIES
-	8. OTHER
+	8. PARTIALS
 
 
 	The MIT License (MIT)
@@ -96,15 +96,24 @@
         @media @phone {
             @import "/layout/_phone.less";
         }
-    }
+   }
 
 /* --------------------------------------------------------------
-	8. OTHER
+	8. PARTIALS
 -------------------------------------------------------------- */
 
     & when (@btn = true) {
       @import "/base/_btn.less";
     }
+
+    & when (@table = true) {
+      @import "/partials/_table.less";
+    }
+
+    & when (@lists = true) {
+      @import "/partials/_lists.less";
+    }
+
 
 
 		

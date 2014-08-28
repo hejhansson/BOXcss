@@ -12,7 +12,7 @@
 	5. GRID
 	6. HELP CLASSES
 	7. MEDIA QUERIES
-	8. OTHER
+	8. PARTIALS
 
 
 	The MIT License (MIT)
@@ -542,7 +542,7 @@ embed {
   }
 }
 /* --------------------------------------------------------------
-	8. OTHER
+	8. PARTIALS
 -------------------------------------------------------------- */
 .btn,
 button {
@@ -570,4 +570,49 @@ button {
 button:hover {
   color: #dddddd;
   background: #7b3523;
+}
+table {
+  width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+}
+thead th {
+  background: #dddddd;
+  color: #333333;
+  font-weight: 900;
+  text-align: left;
+  vertical-align: bottom;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  border: 0.1rem solid #dddddd;
+}
+th {
+  padding: .8rem 1.2rem;
+  background: #ffffff;
+  font-weight: inherit;
+}
+td {
+  vertical-align: middle;
+  padding: .8rem 1rem;
+}
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+tbody tr:hover {
+  background-color: #eee;
+}
+ol,
+ul {
+  line-height: 1.7;
+  padding: 0 0 0 20px;
+}
+ol li ol,
+ul li ol,
+ol li ul,
+ul li ul {
+  margin: .3rem 2rem;
 }
