@@ -546,30 +546,53 @@ embed {
 	8. PARTIALS
 -------------------------------------------------------------- */
 .btn,
-button {
-  display: inline-block;
-  width: auto;
-  padding: 1rem 2rem;
-  border: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+.btn:link,
+.btn:visited {
+  border-radius: .4rem;
+  border: 0.1rem solid #333333;
   line-height: 1;
-  font-size: 1.6rem;
-  text-align: center;
+  color: #333333;
+  display: inline-block;
+  padding: 1.3rem 1rem;
   text-decoration: none;
-  cursor: pointer;
-  background: #cd6a51;
-  /* mhm I know */
-  color: #ffffff !important;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 90%;
 }
 .btn:hover,
-button:hover {
+.btn:link:hover,
+.btn:visited:hover {
+  color: #cd6a51;
+  border: 1px solid #cd6a51;
+}
+.btn:active,
+.btn:link:active,
+.btn:visited:active {
+  background: #cd6a51;
+  color: #ffffff;
+}
+.btn--black,
+.btn--black:link,
+.btn--black:visited {
+  background: #333333;
+  color: #ffffff;
+}
+.btn--black:hover,
+.btn--black:link:hover,
+.btn--black:visited:hover {
+  border: 0.1rem solid #333333;
   color: #dddddd;
-  background: #7b3523;
+}
+.btn--black:active,
+.btn--black:link:active,
+.btn--black:visited:active {
+  border: 0.1rem solid #cd6a51;
+}
+@media only screen and (max-width: 540px) {
+  .btn--full {
+    width: 100%;
+    display: block;
+  }
 }
 table {
   width: 100%;
@@ -664,4 +687,5 @@ form input[type="submit"]:hover {
 }
 form p {
   margin: 0;
+  margin-top: 1.6rem;
 }
