@@ -74,8 +74,9 @@
 	5. PRINT
 -------------------------------------------------------------- */
 
-	@import "/base/_print.less";
-
+    & when (@print = true) {
+	  @import "/base/_print.less";
+    }
 
 /* --------------------------------------------------------------
 	6. HELP CLASSES
@@ -86,22 +87,24 @@
 /* --------------------------------------------------------------
 	7. MEDIA QUERIES 
 -------------------------------------------------------------- */
-	
-	@media @tablet {
-		@import "/layout/_tablet.less";
-	}
 
-	@media @phone {
-		@import "/layout/_phone.less";
-	}
+   & when (@mediaqueries = true) {
+        @media @tablet {
+            @import "/layout/_tablet.less";
+        }
+
+        @media @phone {
+            @import "/layout/_phone.less";
+        }
+    }
 
 /* --------------------------------------------------------------
 	8. OTHER
 -------------------------------------------------------------- */
-	
-	@import "/base/_btn.less";
 
-
+    & when (@btn = true) {
+      @import "/base/_btn.less";
+    }
 
 
 		
