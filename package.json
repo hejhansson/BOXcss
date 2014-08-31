@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "description": "Simple CSS framework",
   "devDependencies": {
-    "grunt": "~0.4.2",
+    "grunt": "~0.4.5",
     "grunt-banner": "~0.2.0",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-less": "~0.8.3",

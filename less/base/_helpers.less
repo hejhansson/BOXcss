@@ -4,28 +4,71 @@
 
 .np {padding: 0 !important}
 .nm {margin: 0 !important}
+
 .fl {float: left}
 .fr {float: right}
+.fn {float: none}
+
+.tc {text-align: center}
+.tl {text-align: left}
+.tr {text-align: right}
 
 .hidden {display: none}
+.nothidden {display: block}
+
+.visible {visibility: visible}
 .notvisible {visibility: hidden}
 
-.pt100 {padding-top:10rem}
-.pt50 {padding-top:5rem}
-.pt20 {padding-top:2rem}
-.pb100 {padding-bottom:10rem}
-.pb50 {padding-bottom:5rem}
-.pb20 {padding-bottom:2rem}
+/* padding */
+.pt100 {padding-top:@base-padding * 5} /* 100px */
+.pt50 {padding-top:@base-padding * 2.5} /* 50px */
+.pt20 {padding-top:@base-padding} /* 20px */
 
-.mt100 {margin-top:10rem}
-.mt50 {margin-top:5rem}
-.mt20 {margin-top:2rem}
-.mb100 {margin-bottom:10rem}
-.mb50 {margin-bottom:5rem}
-.mb20 {margin-bottom:2rem}
+.pl100 {padding-left:@base-padding * 5}
+.pl50 {padding-left:@base-padding * 2.5}
+.pl20 {padding-left:@base-padding}
 
-.centered {margin-right: auto;margin-left: auto;display: block;float: none;}
+.pr100 {padding-right:@base-padding * 5}
+.pr50 {padding-right:@base-padding * 2.5}
+.pr20 {padding-right:@base-padding}
 
+.pb100 {padding-bottom:@base-padding * 5}
+.pb50 {padding-bottom:@base-padding * 2.5}
+.pb20 {padding-bottom:@base-padding}
+
+/* margin */
+.mt100 {margin-top:@base-margin * 5}
+.mt50 {margin-top:@base-margin * 2.5}
+.mt20 {margin-top:@base-margin}
+
+.ml100 {margin-left:@base-margin * 5}
+.ml50 {margin-left:@base-margin * 2.5}
+.ml20 {margin-left:@base-margin}
+
+.mr100 {margin-right:@base-margin * 5}
+.mr50 {margin-right:@base-margin * 2.5}
+.mr20 {margin-right:@base-margin}
+
+.mb100 {margin-bottom:@base-margin * 5}
+.mb50 {margin-bottom:@base-margin * 2.5}
+.mb20 {margin-bottom:@base-margin}
+
+/* mix */
+.ptb20 {padding: @base-padding 0}
+.ptb50 {padding: 5rem 0}
+.ptb100 {padding: 10rem 0}
+
+.mtb20 {margin: @base-margin 0}
+.mtb50 {margin: 5rem 0}
+.mtb100 {margin: 10rem 0}
+
+.prl20 {padding: 0 @base-padding}
+.prl50 {padding: 0 5rem}
+.prl100 {padding: 0 10rem}
+
+.mrl20 {margin: 0 @base-margin}
+.mrl50 {margin: 0 5rem}
+mrl100 {margin: 0 10rem}
 /* --------------------------------------------------------------
 		FIXES
 -------------------------------------------------------------- */

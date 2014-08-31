@@ -3,13 +3,11 @@
 -------------------------------------------------------------- */
 
 html {
-  /* 10px */
-  font-size: @base-fontsize;
+  font-size: @base-size;
 }
 
 body {
-  /* 18px */
-  font-size: 1.8rem;
+  font-size: @base-fontsize;
   font-family: @georgia;
   line-height: @base-lineheight;
   color: @text-color;
@@ -17,42 +15,8 @@ body {
   text-rendering: optimizeLegibility;
 
   @media @phone {
-    font-size: 1.6rem;
+    font-size: @base-fontsize - .2rem;
   }
-}
-
-blockquote {
-  font-size: 1.8rem;
-  line-height: @base-lineheight;
-  padding-left: 40px;
-  margin-left: -40px;
-  border-left: 1rem solid @primary-light;
-  margin: 3rem 0;
-  float: left;
-  background: @silver;
-  padding: 2rem 2rem 2rem 3rem;
-
-  @media @phone {
-    font-size: 1.6rem;
-  }
-
-  small {
-    display: block;
-    float: right;
-    margin-top: 2rem;
-  }
-}
-
-small {
-  font-size: 1.6rem;
-}
-
-em {
-  font-style: italic;
-}
-
-strong {
-  font-weight: 700;
 }
 
 h1,
@@ -106,4 +70,41 @@ p {
   &:last-child {
     margin: 0;
   }
+}
+
+blockquote {
+  font-size: 1.8rem;
+  line-height: @base-lineheight;
+  padding-left: 40px;
+  margin-left: -40px;
+  border-left: 1rem solid @primary-light;
+  margin: 3rem 0;
+  float: left;
+  background: @silver;
+  padding: 2rem 2rem 2rem 3rem;
+
+  @media @phone {
+    font-size: @base-fontsize - .2rem;
+  }
+
+  small {
+    display: block;
+    float: right;
+    margin-top: 2rem;
+  }
+}
+
+small {
+  font-size: @base-fontsize - .2rem;
+  @media @phone {
+    font-size: @base-fontsize - .4rem;
+  }
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
 }

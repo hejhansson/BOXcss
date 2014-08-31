@@ -50,6 +50,10 @@
 	
 	@import "/base/_grid.less";
 
+    & when (@flex = true) {
+      @import "/layout/_flexbox.less";
+    }
+
 /* --------------------------------------------------------------
 	2. BASE
 -------------------------------------------------------------- */
@@ -88,13 +92,13 @@
 	7. MEDIA QUERIES 
 -------------------------------------------------------------- */
 
-        @media @tablet {
-            @import "/layout/_tablet.less";
-        }
+    @media @tablet {
+      @import "/layout/_tablet.less";
+    }
 
-        @media @phone {
-            @import "/layout/_phone.less";
-        }
+    @media @phone {
+      @import "/layout/_phone.less";
+    }
 
 /* --------------------------------------------------------------
 	8. PARTIALS

@@ -1,0 +1,48 @@
+/* --------------------------------------------------------------
+	FLEXBOX
+-------------------------------------------------------------- */
+
+.flex-row {
+  max-width: @container-width;
+  margin: 0 auto;
+  padding: 5px 20px;
+
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+
+  align-items: flex-start;
+}
+
+
+[class*='box-flex-'] {
+  display: flex;
+  display: block;
+
+  /* For testing */
+  line-height: 50px;
+  background: @silver;
+  margin-top: 10px;
+  color: @black;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.box-flex-12    {width: 100%; }
+.box-flex-11    {width: 91.6%;}
+.box-flex-10    {width: 83.3%;}
+.box-flex-9     {width: 75%;  }
+.box-flex-8     {width: 66.6%;}
+.box-flex-7     {width: 58.3%;}
+.box-flex-6     {width: 50%;  }
+.box-flex-5     {width: 41.6%;}
+.box-flex-4     {width: 33.3%;}
+.box-flex-3     {width: 25%;  }
+.box-flex-2     {width: 16.6%;}
+.box-flex-1     {width: 8.3%; }

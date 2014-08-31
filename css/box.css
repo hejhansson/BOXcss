@@ -44,12 +44,18 @@
 		SETTINGS
 		Chose which components you want to use.
 -------------------------------------------------------------- */
+/* Not quite ready */
+/*----------------------------------------------------------------
+		HELPERS
+-------------------------------------------------------------- */
 /*----------------------------------------------------------------
 		BREAKPOINTS
 -------------------------------------------------------------- */
 /*----------------------------------------------------------------
 		TYPOGRAPHY
 -------------------------------------------------------------- */
+/* 10px */
+/* 18px */
 /*----------------------------------------------------------------
 		COLORS
 -------------------------------------------------------------- */
@@ -177,11 +183,9 @@ a:visited:focus {
 		3. TYPOGRAPHY
 -------------------------------------------------------------- */
 html {
-  /* 10px */
   font-size: 62.5%;
 }
 body {
-  /* 18px */
   font-size: 1.8rem;
   font-family: Georgia, serif;
   line-height: 1.7;
@@ -193,36 +197,6 @@ body {
   body {
     font-size: 1.6rem;
   }
-}
-blockquote {
-  font-size: 1.8rem;
-  line-height: 1.7;
-  padding-left: 40px;
-  margin-left: -40px;
-  border-left: 1rem solid #de9d8c;
-  margin: 3rem 0;
-  float: left;
-  background: #dddddd;
-  padding: 2rem 2rem 2rem 3rem;
-}
-@media only screen and (max-width: 540px) {
-  blockquote {
-    font-size: 1.6rem;
-  }
-}
-blockquote small {
-  display: block;
-  float: right;
-  margin-top: 2rem;
-}
-small {
-  font-size: 1.6rem;
-}
-em {
-  font-style: italic;
-}
-strong {
-  font-weight: 700;
 }
 h1,
 h2,
@@ -275,6 +249,41 @@ p {
 }
 p:last-child {
   margin: 0;
+}
+blockquote {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  padding-left: 40px;
+  margin-left: -40px;
+  border-left: 1rem solid #de9d8c;
+  margin: 3rem 0;
+  float: left;
+  background: #dddddd;
+  padding: 2rem 2rem 2rem 3rem;
+}
+@media only screen and (max-width: 540px) {
+  blockquote {
+    font-size: 1.6rem;
+  }
+}
+blockquote small {
+  display: block;
+  float: right;
+  margin-top: 2rem;
+}
+small {
+  font-size: 1.6rem;
+}
+@media only screen and (max-width: 540px) {
+  small {
+    font-size: 1.4rem;
+  }
+}
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: 700;
 }
 /* --------------------------------------------------------------
 	4. LAYOUT
@@ -402,20 +411,60 @@ header nav[role=navigation] .primary-nav .primary-nav__item {
 .fr {
   float: right;
 }
+.fn {
+  float: none;
+}
+.tc {
+  text-align: center;
+}
+.tl {
+  text-align: left;
+}
+.tr {
+  text-align: right;
+}
 .hidden {
   display: none;
+}
+.nothidden {
+  display: block;
+}
+.visible {
+  visibility: visible;
 }
 .notvisible {
   visibility: hidden;
 }
+/* padding */
 .pt100 {
   padding-top: 10rem;
 }
+/* 100px */
 .pt50 {
   padding-top: 5rem;
 }
+/* 50px */
 .pt20 {
   padding-top: 2rem;
+}
+/* 20px */
+.pl100 {
+  padding-left: 10rem;
+}
+.pl50 {
+  padding-left: 5rem;
+}
+.pl20 {
+  padding-left: 2rem;
+}
+.pr100 {
+  padding-right: 10rem;
+}
+.pr50 {
+  padding-right: 5rem;
+}
+.pr20 {
+  padding-right: 2rem;
 }
 .pb100 {
   padding-bottom: 10rem;
@@ -426,6 +475,7 @@ header nav[role=navigation] .primary-nav .primary-nav__item {
 .pb20 {
   padding-bottom: 2rem;
 }
+/* margin */
 .mt100 {
   margin-top: 10rem;
 }
@@ -434,6 +484,24 @@ header nav[role=navigation] .primary-nav .primary-nav__item {
 }
 .mt20 {
   margin-top: 2rem;
+}
+.ml100 {
+  margin-left: 10rem;
+}
+.ml50 {
+  margin-left: 5rem;
+}
+.ml20 {
+  margin-left: 2rem;
+}
+.mr100 {
+  margin-right: 10rem;
+}
+.mr50 {
+  margin-right: 5rem;
+}
+.mr20 {
+  margin-right: 2rem;
 }
 .mb100 {
   margin-bottom: 10rem;
@@ -444,11 +512,42 @@ header nav[role=navigation] .primary-nav .primary-nav__item {
 .mb20 {
   margin-bottom: 2rem;
 }
-.centered {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  float: none;
+/* mix */
+.ptb20 {
+  padding: 2rem 0;
+}
+.ptb50 {
+  padding: 5rem 0;
+}
+.ptb100 {
+  padding: 10rem 0;
+}
+.mtb20 {
+  margin: 2rem 0;
+}
+.mtb50 {
+  margin: 5rem 0;
+}
+.mtb100 {
+  margin: 10rem 0;
+}
+.prl20 {
+  padding: 0 2rem;
+}
+.prl50 {
+  padding: 0 5rem;
+}
+.prl100 {
+  padding: 0 10rem;
+}
+.mrl20 {
+  margin: 0 2rem;
+}
+.mrl50 {
+  margin: 0 5rem;
+}
+mrl100 {
+  margin: 0 10rem;
 }
 /* --------------------------------------------------------------
 		FIXES
@@ -679,52 +778,33 @@ ul li ul {
   margin: .3rem 2rem;
 }
 form input[type="text"],
-form input[type="password"] {
+form input[type="password"],
+form textarea {
   display: block;
+  width: 100%;
   border-radius: .3rem;
   border: .1rem solid #cbcbcb;
-  padding: 1rem;
+  padding: 2rem 1rem;
+  line-height: 1;
 }
 form input[type="text"] + input,
-form input[type="password"] + input {
+form input[type="password"] + input,
+form textarea + input {
   margin-bottom: 1rem;
 }
 form input[type="text"]:focus,
-form input[type="password"]:focus {
+form input[type="password"]:focus,
+form textarea:focus {
   outline: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
   background: #eee;
   border: .1rem solid #999;
 }
 form input[type="submit"] {
-  display: inline-block;
-  width: auto;
-  padding: 1rem 2rem;
-  border: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  line-height: 1;
-  font-size: 1.6rem;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  background: #cd6a51;
-  /* mhm I know */
-  color: #ffffff !important;
   margin-top: 1.6rem;
 }
-form input[type="submit"]:hover {
-  color: #dddddd;
-  background: #7b3523;
-}
-form p {
+form p,
+form label {
   margin: 0;
+  display: block;
   margin-top: 1.6rem;
 }

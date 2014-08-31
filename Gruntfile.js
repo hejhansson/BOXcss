@@ -5,19 +5,18 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-
     box: {
       less: 'less/_box.less',
       css: 'css/box.css',
       cssMin: 'css/box.min.css',
-      banner: '/*! BOXcss <%= pkg.version %> |  https://github.com/hejhansson/BOXcss */\n'    
+      banner: '/*! BOXcss <%= pkg.version %> |  https://github.com/hejhansson/BOXcss */\n'
     },
 
     // Tasks
     clean: {
       dist: ['dist']
     },
-    
+
     less: {
       dist: {
         files: {
@@ -30,6 +29,7 @@ module.exports = function (grunt) {
           cleancss: true,
           report: 'min'
         },
+
         files: {
           '<%= box.cssMin %>': '<%= box.css %>'
         }
@@ -42,6 +42,7 @@ module.exports = function (grunt) {
           position: 'top',
           banner: '<%= box.banner %>'
         },
+
         files: {
           src: [
             '<%= box.cssMin %>'
