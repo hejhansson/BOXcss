@@ -48,25 +48,13 @@
   -o-transition:      @transition;
 }
 
-/* btn mixin */
-.button () {
-  display: inline-block;
-  width: auto;
-  padding: 1rem 2rem;
-  border: none;
-  .border-radius(4px);
-  line-height: 1;
-  font-size: 1.6rem;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  background: @primary;
+/* used like this — .sprite(44,21,312,0); */
+.sprite(@width,@height,@x,@y) {
+  width: @width*1px;
+  height: @height*1px;
+  background: @sprites no-repeat  @x*(-1px)  @y*(-1px);
+}
 
-  /* mhm I know */
-  color: @white !important;
-
-  &:hover {
-    color: @silver;
-    background: @primary-dark;
-  }
+.sprite {
+  .sprite(50,50,0,0);
 }

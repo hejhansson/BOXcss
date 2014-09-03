@@ -62,7 +62,12 @@
 /*----------------------------------------------------------------
 		MIXINS
 -------------------------------------------------------------- */
-/* btn mixin */
+/* used like this — .sprite(44,21,312,0); */
+.sprite {
+  width: 50px;
+  height: 50px;
+  background: url('../images/sprite.png') no-repeat 0px 0px;
+}
 /* --------------------------------------------------------------
 	1. GRID
 -------------------------------------------------------------- */
@@ -326,11 +331,11 @@ header nav[role=navigation] .primary-nav {
 }
 header nav[role=navigation] .primary-nav .primary-nav__item {
   display: inline;
-  margin-left: 35px;
+  margin-left: 3.5rem;
 }
 @media only screen and (max-width: 540px) {
   header nav[role=navigation] .primary-nav .primary-nav__item {
-    margin: 0 20px;
+    margin: 0 2rem;
   }
 }
 /* --------------------------------------------------------------
