@@ -8,7 +8,7 @@ html {
 
 body {
   font-size: @base-fontsize;
-  font-family: @georgia;
+  font-family: @helvetica;
   line-height: @base-lineheight;
   color: @text-color;
   -webkit-font-smoothing: antialiased;
@@ -22,11 +22,7 @@ body {
 h1,
 h2,
 h3 {
-  margin-bottom: 1.4rem; font-weight:normal; line-height: 1;
-}
-
-p > a {
-  text-decoration: underline;
+  margin-bottom: 1.4rem; font-weight: bold; line-height: 1;
 }
 
 h1>a,
@@ -87,7 +83,7 @@ blockquote {
     font-size: @base-fontsize - .2rem;
   }
 
-  small {
+  small,p {
     display: block;
     float: right;
     margin-top: 2rem;
@@ -96,6 +92,8 @@ blockquote {
 
 small {
   font-size: @base-fontsize - .2rem;
+  color: @gray;
+
   @media @phone {
     font-size: @base-fontsize - .4rem;
   }
@@ -107,4 +105,11 @@ em {
 
 strong {
   font-weight: 700;
+}
+
+hr {
+  position: relative;
+  margin: 2.6rem 0;
+  border: 0;
+  border-bottom: 1px solid @silver;
 }

@@ -75,7 +75,7 @@
 		1. GRID
 -------------------------------------------------------------- */
 .container {
-  max-width: 96rem;
+  max-width: 86rem;
   margin: 0 auto;
   padding: 0 2rem;
   position: relative;
@@ -180,6 +180,7 @@ a:visited:hover,
 a:focus,
 a:visited:focus {
   color: #a3462f;
+  text-decoration: underline;
 }
 /* --------------------------------------------------------------
 	3. TYPOGRAPHY 
@@ -192,7 +193,7 @@ html {
 }
 body {
   font-size: 1.8rem;
-  font-family: Georgia, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.7;
   color: #333333;
   -webkit-font-smoothing: antialiased;
@@ -207,11 +208,8 @@ h1,
 h2,
 h3 {
   margin-bottom: 1.4rem;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1;
-}
-p > a {
-  text-decoration: underline;
 }
 h1 > a,
 h2 > a,
@@ -271,13 +269,15 @@ blockquote {
     font-size: 1.6rem;
   }
 }
-blockquote small {
+blockquote small,
+blockquote p {
   display: block;
   float: right;
   margin-top: 2rem;
 }
 small {
   font-size: 1.6rem;
+  color: #aaaaaa;
 }
 @media only screen and (max-width: 540px) {
   small {
@@ -289,6 +289,12 @@ em {
 }
 strong {
   font-weight: 700;
+}
+hr {
+  position: relative;
+  margin: 2.6rem 0;
+  border: 0;
+  border-bottom: 1px solid #dddddd;
 }
 /* --------------------------------------------------------------
 	4. LAYOUT
@@ -323,6 +329,7 @@ header .logo img:hover {
 }
 header nav[role=navigation] .primary-nav {
   text-align: right;
+  padding: 0;
 }
 @media only screen and (max-width: 540px) {
   header nav[role=navigation] .primary-nav {
@@ -344,6 +351,9 @@ header nav[role=navigation] .primary-nav .primary-nav__item {
 /* --------------------------------------------------------------
 			4.4 FOOTER
 -------------------------------------------------------------- */
+footer[role=contentinfo] p {
+  font-size: 1.6rem;
+}
 /* --------------------------------------------------------------
 	5. PRINT
 -------------------------------------------------------------- */
@@ -774,7 +784,12 @@ tbody tr:hover {
 ol,
 ul {
   line-height: 1.7;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 40px;
+  margin-bottom: 1.6rem;
+}
+ol li,
+ul li {
+  color: #cd6a51;
 }
 ol li ol,
 ul li ol,

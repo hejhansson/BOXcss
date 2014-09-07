@@ -42,11 +42,14 @@ body {
   text-shadow : none;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
   color: @linkColor;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: @linkHoverColor;
+    text-decoration: underline;
   }
 }
