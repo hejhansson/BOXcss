@@ -1,0 +1,1315 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"main",
+				"main"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"Cal",
+				"Calendas"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"border-",
+				"border-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"b",
+				"before"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"me",
+				"medlemstyp"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"tw",
+				"tweetStr"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"block",
+				"blockquote"
+			],
+			[
+				"n",
+				"nyhetlank"
+			],
+			[
+				"nyh",
+				"nyhetcontent"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"text-",
+				"text-color"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"re",
+				"repeat-x"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"boro",
+				"border-bottom"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"cont",
+				"contentinfo"
+			],
+			[
+				"ke",
+				"keyCode"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"top",
+				"top-smal"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"nyhete",
+				"nyhet--container"
+			],
+			[
+				"body",
+				"bodycolor"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"con",
+				"container-login"
+			],
+			[
+				"fade",
+				"fadeOutRight"
+			],
+			[
+				"fadeou",
+				"fadeOutRight"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"fle",
+				"flex-caption"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"over",
+				"over--meny"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"gu",
+				"guestBtnRef"
+			],
+			[
+				"chat",
+				"chatRef"
+			],
+			[
+				"text",
+				"textref"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"login--",
+				"login--window"
+			],
+			[
+				"pw",
+				"pwRef"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"login",
+				"loginForm"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"bt",
+				"btn"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"iin",
+				"inline-block"
+			],
+			[
+				"po",
+				"poster"
+			],
+			[
+				"the",
+				"the-cat"
+			],
+			[
+				"MAR",
+				"margin"
+			],
+			[
+				"e",
+				"entry-title"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"mai",
+				"lighter-main-color"
+			],
+			[
+				"lig",
+				"lighter-main-color"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"inm",
+				"inMedDigC"
+			],
+			[
+				"toggle",
+				"toggleRef"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"ent",
+				"entry-header"
+			],
+			[
+				"dl",
+				"display"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"cla",
+				"classIn"
+			],
+			[
+				"menu",
+				"menuRef"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"wodn",
+				"wordCounter"
+			],
+			[
+				"spa",
+				"spanRef"
+			],
+			[
+				"cop",
+				"copyText"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"bu",
+				"button-copy"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"s",
+				"scope"
+			],
+			[
+				"contr",
+				"controller"
+			],
+			[
+				"mr",
+				"margin"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"st",
+				"strokeStyle"
+			],
+			[
+				"fille",
+				"fillStyle"
+			],
+			[
+				"wind",
+				"windowOnLoad"
+			],
+			[
+				"strok",
+				"strokeStyle"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"rss",
+				"rssfeedsetup"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"sho",
+				"showMore"
+			],
+			[
+				"show",
+				"showLess"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"inline-b",
+				"inline-table"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"max-",
+				"max-height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6574,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/_settings.less",
+			"settings":
+			{
+				"buffer_size": 2108,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"the",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 126.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/boxcss.sublime-project",
+		"/Users/alexanderhansson/Downloads/plangular-2.0-beta.1/index.html",
+		"/Users/alexanderhansson/Desktop/app.js",
+		"/Users/alexanderhansson/Desktop/gowell/page.php",
+		"/Users/alexanderhansson/Desktop/main.css",
+		"/Users/alexanderhansson/Desktop/jalln.html",
+		"/Users/alexanderhansson/Desktop/gowell/less/partials/_header.less",
+		"/Users/alexanderhansson/Desktop/cities.js",
+		"/Users/alexanderhansson/Desktop/SE/SE.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/hansson-ryden/themes/hansson-ryden/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fia/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fia/login_success.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fia/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fia/checklogin.php",
+		"/Users/alexanderhansson/Desktop/test.sql",
+		"/Users/alexanderhansson/Dropbox/Bild framsida liggande:",
+		"/Users/alexanderhansson/Dropbox/Utbud & priser",
+		"/Applications/XAMPP/xamppfiles/htdocs/hansson-ryden/themes/hansson-ryden/logo.svg",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc/js/functions.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc/incl/widgets.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc/js/functions.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc/less/_grid.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/less/_var.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/libs/font-awesome/less/mixins.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/404.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc/single.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/bli-medlem.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/less/_box.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/less/_help--classes.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/less/partials/_footer.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/less/_type.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/less/_base.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/less/partials/_site.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/less/partials/_header.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc/page-nyheter.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc/page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/js/functions.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/index.html",
+		"/Users/alexanderhansson/Dropbox/Dev/isoc/less/_var.less",
+		"/Users/alexanderhansson/Dropbox/Dev/isoc/less/_grid.less",
+		"/Users/alexanderhansson/Dropbox/Dev/isoc/less/partials/_footer.less",
+		"/Users/alexanderhansson/Dropbox/Dev/isoc/less/partials/_site.less",
+		"/Users/alexanderhansson/Dropbox/Dev/isoc/less/_type.less",
+		"/Users/alexanderhansson/Dropbox/Dev/isoc/less/_fixes.less",
+		"/Users/alexanderhansson/Dropbox/Dev/isoc/less/_base.less",
+		"/Users/alexanderhansson/Dropbox/Dev/isoc/less/partials/_header.less",
+		"/Users/alexanderhansson/Dropbox/Dev/isoc/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alex-blogg/themes/anchor-box/less/_type.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/README.md",
+		"/Users/alexanderhansson/.Trash/Properties/AssemblyInfo.cs",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/simplemedia.xsd",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/outPipeline.btp.cs",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/outPipeline.btp",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/obj/Debug/Laboration4.pdb",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/obj/Debug/Laboration4.dll",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/obj/Debug/Laboration4.ClrTypes.dll",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/obj/Debug/BizTalk/XLang/File0.cs",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/mappningLab4.btm.cs",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/mappningLab4.btm",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/Laboration4.btproj.user",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/inSchema.xsd.cs",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/inSchema.xsd",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/Properties/AssemblyInfo.cs",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/FlatFileSchema1.xsd",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4.sln",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4.sln",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4.suo",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/simplemedia.xsd.cs",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/obj/Debug/Laboration4.btproj.FileListAbsolute.txt",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/obj/Debug/BizTalk/BuildDone",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/Laboration4.btproj",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/Lab4Orchestration.odx",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/key.snk",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/inPipeline.btp.cs",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/inPipeline.btp",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/bin/Debug/Laboration4.pdb",
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/bin/Debug/Laboration4.dll",
+		"/Users/alexanderhansson/Desktop/Laboration 1 C# .NET Alexander Hansson/Lottodragning C# .NET - Alexander Hansson/WindowsFormsApplication1/Form1.cs",
+		"/Users/alexanderhansson/Desktop/Laboration 1 C# .NET Alexander Hansson/Miniräknare C# .NET - Alexander Hansson/WindowsFormsApplication2/Form1.cs",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/inSchema.xsd.cs",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/inSchema.xsd",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/simplemedia.xsd",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/Lab4Orchestration.odx",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/outPipeline.btp.cs",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/Properties/AssemblyInfo.cs",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/Laboration4.pdb",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/Laboration4.dll",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/Laboration4.ClrTypes.dll",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/Laboration4.btproj.FileListAbsolute.txt",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/BizTalk/XLang/File0.cs",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/BizTalk/BuildDone",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/outPipeline.btp",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/mappningLab4.btm",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/lab4Key.snk",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/inPipeline.btp.cs",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/FlatFileSchema1.xsd",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/bin/Debug/Laboration4.pdb",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/bin/Debug/Laboration4.dll",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4.suo",
+		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/simplemedia.xsd.cs",
+		"/Users/alexanderhansson/Desktop/isoc/index.html",
+		"/Users/alexanderhansson/Desktop/isoc/isoc.html",
+		"/Users/alexanderhansson/Desktop/index.html",
+		"/Users/alexanderhansson/Desktop/cssnextpage.js",
+		"/Users/alexanderhansson/Desktop/isoc.txt",
+		"/Users/alexanderhansson/Desktop/isoc/less/_grid.less",
+		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/_var.less",
+		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/_help--classes.less",
+		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/partials/_site.less",
+		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/_type.less",
+		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/partials/_footer.less",
+		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/partials/_header.less",
+		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/index.html",
+		"/Users/alexanderhansson/Desktop/ulrica2/less/partials/_footer.less",
+		"/Users/alexanderhansson/Desktop/ulrica2/less/_help--classes.less",
+		"/Users/alexanderhansson/Desktop/ulrica2/less/_type.less",
+		"/Users/alexanderhansson/Desktop/ulrica2/less/_var.less",
+		"/Users/alexanderhansson/Desktop/ulrica2/less/partials/_header.less",
+		"/Users/alexanderhansson/Desktop/ulrica2/index.html",
+		"/Users/alexanderhansson/Desktop/ulrica2/less/_box.less",
+		"/Users/alexanderhansson/Desktop/ulrica2/less/_fixes.less",
+		"/Users/alexanderhansson/Desktop/ulrica2/less/_grid.less",
+		"/Users/alexanderhansson/Desktop/ulrica2/less/_media--queries.less"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/wp-start/wp-content/themes/ulrica",
+			"<open folders>",
+			"/Applications/XAMPP/xamppfiles/htdocs/ryden/themes/ryden",
+			"",
+			"*.txt",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"if",
+			"@type",
+			"Lyck\"",
+			"Nos\"",
+			"Ly\"",
+			"Västerbotten	AC	Bjurholm	2403			63.75	19.3167	4",
+			"Västerbotten	AC	Bjurholm	2403			63.7667	18.9833	4",
+			"Västerbotten	AC	Nordmaling	2401			63.5667	19.6667	4",
+			"Västerbotten	AC	Nordmaling	2401			63.75	19.6333	4",
+			"Västerbotten	AC	Nordmaling	2401			63.5333	19.4	4",
+			"Västerbotten	AC	Nordmaling	2401			63.5333	19.4333	4",
+			"Västerbotten	AC	Nordmaling	2401			63.5685	19.5024	4",
+			"Västerbotten	AC	Nordmaling	2401			63.7	18.8	4",
+			"Nynäshamn	0192			58.9034	17.9479	4",
+			"Nynäshamn	0192			58.9832	17.9777	1",
+			"Nynäshamn	0192			58.9802	17.9374	1",
+			"Nynäshamn	0192			58.9333	17.8	4",
+			"Nynäshamn	0192			58.9833	17.9	1",
+			"Nynäshamn	0192			58.9833	17.9	4",
+			"ac",
+			"ab",
+			"stockholm",
+			"Stockholm	AB	Nynäshamn	0192			59.1988	17.829	1",
+			"	",
+			"Stockholm	AB	Nynäshamn	0192			59.1167	18.1	4",
+			"Stockholm	AB	Norrtälje	0188			60.05	18.6	4",
+			"Stockholm	AB	Norrtälje	0188			59.75	18.3667	4",
+			"Stockholm	AB	Norrtälje	0188			59.75	18.3667	4\n\"76221:Rimbo	Stockholm	AB	Norrtälje	0188			59.75	18.3667	4",
+			"Stockholm	AB	Norrtälje	0188			59.758	18.705	4",
+			"Stockholm	AB	Norrtälje	0188			60.1	18.8333	4",
+			"Stockholm	AB	Norrtälje	0188			59.7667	19.0333	4",
+			"Stockholm	AB	Norrtälje	0188			59.6347	18.6281	4",
+			"Stockholm	AB	Vaxholm	0187			59.4022	18.3532	4",
+			"Stockholm	AB	Vaxholm	0187			59.3268	18.3898	4",
+			"Stockholm	AB	Lidingö	0186			59.3667	18.1333	4",
+			"Stockholm	AB	Solna	0184			59.3355	18.0582	1",
+			"Stockholm	AB	Solna	0184			59.36	18.0009	4",
+			"Stockholm	AB	Sundbyberg	0183			59.3613	17.9711	4",
+			"Stockholm	AB	Nacka	0182			59.2667	18.1833	4",
+			"AB	Nacka	0182			59.2667	18.1833	4",
+			"Stockholm	AB	Nacka	0182			59.2833	18.3	4",
+			"Stockholm	AB	Nacka	0182			59.3173	18.255	4",
+			"Stockholm	AB	Nacka	0182			59.3216	18.1143	1",
+			"Stockholm	AB	Nacka	0182			59.3	18.2	4",
+			"Stockholm	AB	Nacka	0182			59.3	18.2	4\n\"13152:Nacka Strand	Stockholm	AB	Nacka	0182			59.3134	18.1481	1",
+			"Stockholm	AB	Nacka	0182			59.3137	18.1496	1",
+			"Stockholm	AB	Nacka	0182			59.3105	18.1637	4",
+			"Stockholm	AB	Södertälje	0181			59.0167	17.5333	4",
+			"Stockholm	AB	Södertälje	0181			59.1	17.5667	4",
+			"Stockholm	AB	Södertälje	0181			59.1955	17.6252	4",
+			"Stockholm	AB	Stockholm	0180			59.3326	18.0649	1",
+			"\"by	",
+			"to:kholm	AB	Stockholm	0180			59.15	16.85	4",
+			"Stockholm	AB	Stockholm	0180			59.4032	17.9448	4",
+			"Stockholm	AB	Stockholm	0180			59.3833	17.9167	4",
+			"Stockholm	AB	Stockholm	0180			59.3644	17.8741	4",
+			"Stockholm	AB	Stockholm	0180			59.35	17.9167	4",
+			"Stockholm	AB	Stockholm	0180			59.2667	17.8833	4",
+			"Stockholm	AB	Stockholm	0180			59.25	18.1167	4",
+			"Stck:olm	AB	Stockholm	0180			59.26	18.1167	1",
+			"Stockholm	AB	Stockholm	0180			59.25	18.1167	4",
+			"Stck:olm	AB	Stockholm	0180			59.2556	18.1167	1",
+			"Stockholm	AB	Stockholm	0180			59.2667	18.1167	4",
+			"Stockholm	AB	Stockholm	0180			59.2755	17.902	4",
+			"Stockholm	AB	Stockholm	0180			59.3059	17.9872	4",
+			"Stockholm	AB	Stockholm	0180			59.2793	18.0111	4",
+			"Stockholm	AB	Stockholm	0180			59.2968	18.0313	1",
+			"Stockholm	AB	Stockholm	0180			59.25	18.0833	4",
+			"Stockholm	AB	Stockholm	0180			59.2833	18.0667	4",
+			"Stockholm	AB	Stockholm	0180			59.3332	18.0525	1",
+			"Stockholm	AB	Stockholm	0180			59.3333	18.05	1",
+			"Stockholm	AB	Stockholm	0180			59.3333	18.05	4",
+			"Stockholm	AB	Stockholm	0180			59.3	18.05	1",
+			"Stockholm	AB	Stockholm	0180			59.3	18.05	4",
+			"Stockholm	AB	Stockholm	0180			59.3326	18.0649	4",
+			"Stockholm	AB	Danderyd	0162			59.3833	18.0667	4",
+			"Stockholm	AB	Danderyd	0162			59.3993	18.0562	4",
+			"Stockholm	AB	Danderyd	0162			59.4333	18.05	4",
+			"Stockholm	AB	Danderyd	0162			59.3833	18.0667	4",
+			"Stockholm	AB	Danderyd	0162			59.3987	18.0294	4",
+			"Stockholm	AB	Täby	0160			59.4439	18.0687	4",
+			"Stockholm	AB	Nykvarn	0140			59.1833	17.4333	4",
+			"Stockholm	AB	Tyresö	0138			59.2333	18.3	4",
+			"Stockholm	AB	Haninge	0136			58.9831	18.1331	4",
+			"Stockholm	AB	Haninge	0136			59.1	18.0331	4",
+			"	\n",
+			"Stockholm	AB	Haninge	0136			59.1167	18.1	4",
+			"Stockholm	AB	Haninge	0136			59.1677	18.1448	4",
+			"Stockholm	AB	Haninge	0136			59.2654	18.64	1",
+			"Stockholm	AB	Haninge	0136			59.0544	18.4283	4",
+			"Stockholm	AB	Haninge	0136			59.1331	18.4064	4",
+			"Stockholm	AB	Salem	0128			59.2	17.7333	4",
+			"Stockholm	AB	Botkyrka	0127			59.1988	17.829	1",
+			"Stockholm	AB	Botkyrka	0127			59.2	17.8	4",
+			"Stockholm	AB	Botkyrka	0127			59.1986	17.8332	4",
+			"Stockholm	AB	Botkyrka	0127			59.2	17.8833	4",
+			"Stockholm	AB	Botkyrka	0127			59.25	17.7833	4",
+			"Stockholm	AB	Huddinge	0126			59.2667	17.8833	4",
+			"Stockholm	AB	Huddinge	0126			59.2333	18.1333	4",
+			"Stockholm	AB	Huddinge	0126			59.2167	18.15	4",
+			"Stockholm	AB	Huddinge	0126			59.237	17.9819	4",
+			"Stockholm	AB	Huddinge	0126			59.237	17.9819	4\n\"14183:Huddinge	Stockholm	AB	Huddinge	0126			59.237	17.9819	4",
+			"Stockh",
+			"Stoc",
+			"Stockholm	AB	Ekerö	0125			59.291	17.8121	4",
+			"Stockholm	AB	Järfälla	0123			59.3501	17.9658	1",
+			"Stockholm	AB	Värmdö	0120			59.35	18.5	4",
+			"Stockholm	AB	Värmdö	0120			59.3268	18.3898	1",
+			"Stockholm	AB	Värmdö	0120			59.3268	18.3898	4",
+			"Stockholm	AB	Österåker	0117	",
+			"SE",
+			"Stockholm	AB	Vallentuna	0115	",
+			"59.4794	18.2997	4",
+			"59.4675	18.7494	4",
+			"59.5344	18.0776	4",
+			"-20px",
+			"20px",
+			"-100p",
+			"-17",
+			"arkiv",
+			"medlem",
+			"first",
+			"om-isoc",
+			" \n",
+			"om-is",
+			"medlem",
+			"mobile-close",
+			"nyheter"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"box",
+			"guest",
+			"password",
+			"user",
+			"635",
+			"630",
+			"620",
+			"600",
+			"20",
+			"color",
+			"box",
+			"linjen",
+			"h1",
+			"linje",
+			"meny"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "less/_settings.less",
+					"settings":
+					{
+						"buffer_size": 2108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.488705985915,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"box",
+				"boxcss.sublime-project"
+			],
+			[
+				"var",
+				"isoc/less/_var.less"
+			],
+			[
+				"func",
+				"isoc/js/functions.js"
+			],
+			[
+				"footer",
+				"isoc/footer.php"
+			],
+			[
+				"inde",
+				"isoc/index.php"
+			],
+			[
+				"fun",
+				"isoc/js/functions.js"
+			],
+			[
+				"functio",
+				"isoc/js/functions.js"
+			],
+			[
+				"page",
+				"isoc/page.php"
+			],
+			[
+				"medlem",
+				"isoc/incl/bli-medlem-form.php"
+			],
+			[
+				"sin",
+				"isoc/single.php"
+			],
+			[
+				"grid",
+				"isoc/less/_grid.less"
+			],
+			[
+				"mix",
+				"isoc.dev/libs/font-awesome/less/mixins.less"
+			],
+			[
+				"type",
+				"isoc/less/_type.less"
+			],
+			[
+				"widge",
+				"isoc/incl/widgets.php"
+			],
+			[
+				"base",
+				"isoc/less/_base.less"
+			],
+			[
+				"blime",
+				"isoc.dev/bli-medlem.html"
+			],
+			[
+				"widget",
+				"isoc/incl/widgets.php"
+			],
+			[
+				"help--",
+				"isoc/less/_help--classes.less"
+			],
+			[
+				"single",
+				"isoc/single.php"
+			],
+			[
+				"nyheter",
+				"isoc/page-nyheter.php"
+			],
+			[
+				"header",
+				"isoc/header.php"
+			],
+			[
+				"post",
+				"anchor-box/postmedcat.html"
+			],
+			[
+				"typ",
+				"anchor-box/less/_type.less"
+			],
+			[
+				"sidr",
+				"anchor-box/less/sidr.less"
+			],
+			[
+				"_var",
+				"anchor-box/less/_var.less"
+			],
+			[
+				"_var.",
+				"box.css/less/_var.less"
+			],
+			[
+				"media--",
+				"box.css/less/_media--queries.less"
+			],
+			[
+				"hel--",
+				"box.css/less/_help--classes.less"
+			],
+			[
+				"_var.less",
+				"box.css/less/_var.less"
+			],
+			[
+				"_box.less",
+				"box.css/less/_box.less"
+			],
+			[
+				"box.less",
+				"box.css/less/_base.less"
+			],
+			[
+				"site",
+				"anchor-box/less/_site.less"
+			],
+			[
+				"articl",
+				"anchor-box/article.php"
+			],
+			[
+				"arti",
+				"article.php"
+			],
+			[
+				"fixes",
+				"ulrica/less/_fixes.less"
+			],
+			[
+				"posts",
+				"anchor-box/posts.php"
+			],
+			[
+				"responsiveness",
+				"ulrica/less/_responsiveness.less"
+			],
+			[
+				"grunt",
+				"ulrica/Gruntfile.js"
+			],
+			[
+				"head",
+				"fia/header.php"
+			],
+			[
+				"fixe",
+				"anchor-box/less/_fixes.less"
+			],
+			[
+				"respo",
+				"anchor-box/less/_responsiveness.less"
+			],
+			[
+				"resp",
+				"anchor-box/less/_responsiveness.less"
+			],
+			[
+				"index",
+				"fia/index.php"
+			],
+			[
+				"function",
+				"fia/js/functions.js"
+			],
+			[
+				"custom",
+				"ryden/page-custom.php"
+			],
+			[
+				"box.le",
+				"anchor-box/less/_box.less"
+			],
+			[
+				"functi",
+				"anchor-box/functions.php"
+			],
+			[
+				"rydenfooter",
+				"ryden/footer.php"
+			],
+			[
+				"search",
+				"wp-start/wp-content/themes/ulrica/search.php"
+			],
+			[
+				"sidebar",
+				"wp-start/wp-content/themes/ulrica/sidebar.php"
+			],
+			[
+				"content-si",
+				"wp-start/wp-content/themes/ulrica/content-single.php"
+			],
+			[
+				"single.",
+				"wp-start/wp-content/themes/ulrica/single.php"
+			],
+			[
+				"singl",
+				"wp-start/wp-content/themes/twentyfourteen/single.php"
+			],
+			[
+				"index.php",
+				"wp-start/wp-content/themes/ulrica/index.php"
+			],
+			[
+				"content.php",
+				"wp-start/wp-content/themes/ulrica/content.php"
+			],
+			[
+				"wp-con",
+				"wp-start/wp-config.php"
+			],
+			[
+				"article",
+				"anchor-box/article.php"
+			],
+			[
+				"404",
+				"ryden/404.php"
+			],
+			[
+				"fii",
+				"ulrica/libs/font-awesome/src/3.2.1/icons/index.html"
+			],
+			[
+				"",
+				"default/footer.php"
+			],
+			[
+				"var.l",
+				"ulrica/less/_var.less"
+			],
+			[
+				"respon",
+				"anchor-box/less/_responsiveness.less"
+			],
+			[
+				"functions",
+				"anchor-box/js/functions.js"
+			],
+			[
+				"site.less",
+				"anchor-box/less/_site.less"
+			],
+			[
+				"pos",
+				"ryden/posts.php"
+			],
+			[
+				"sear",
+				"ryden/search.php"
+			],
+			[
+				"cust",
+				"ryden/page-custom.php"
+			],
+			[
+				"js",
+				"js/main.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"mari",
+				"/Applications/XAMPP/xamppfiles/htdocs/marilyn/marilyn-wp.sublime-project"
+			],
+			[
+				"mar",
+				"/Users/Hansson/Desktop/marilyn/marilyn.sublime-project"
+			],
+			[
+				"",
+				"/Users/alexanderhansson/Dropbox/hansson.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 141.0,
+	"status_bar_visible": false
+}
