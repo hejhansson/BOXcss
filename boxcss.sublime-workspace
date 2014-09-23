@@ -520,7 +520,7 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/Users/Hansson/Desktop/box.css/index.html",
 			"settings":
 			{
 				"buffer_size": 6574,
@@ -528,7 +528,7 @@
 			}
 		},
 		{
-			"file": "less/_settings.less",
+			"file": "/Users/Hansson/Desktop/box.css/less/_settings.less",
 			"settings":
 			{
 				"buffer_size": 2108,
@@ -539,9 +539,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -571,7 +579,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 457.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -588,6 +596,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/less/_settings.less",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/index.html",
 		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/boxcss.sublime-project",
 		"/Users/alexanderhansson/Downloads/plangular-2.0-beta.1/index.html",
 		"/Users/alexanderhansson/Desktop/app.js",
@@ -713,9 +723,7 @@
 		"/Users/alexanderhansson/Desktop/ulrica2/less/partials/_header.less",
 		"/Users/alexanderhansson/Desktop/ulrica2/index.html",
 		"/Users/alexanderhansson/Desktop/ulrica2/less/_box.less",
-		"/Users/alexanderhansson/Desktop/ulrica2/less/_fixes.less",
-		"/Users/alexanderhansson/Desktop/ulrica2/less/_grid.less",
-		"/Users/alexanderhansson/Desktop/ulrica2/less/_media--queries.less"
+		"/Users/alexanderhansson/Desktop/ulrica2/less/_fixes.less"
 	],
 	"find":
 	{
@@ -904,7 +912,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/Users/Hansson/Desktop/box.css/index.html",
 					"settings":
 					{
 						"buffer_size": 6574,
@@ -914,8 +922,8 @@
 						"selection":
 						[
 							[
-								179,
-								179
+								393,
+								393
 							]
 						],
 						"settings":
@@ -936,7 +944,7 @@
 			[
 				{
 					"buffer": 1,
-					"file": "less/_settings.less",
+					"file": "/Users/Hansson/Desktop/box.css/less/_settings.less",
 					"settings":
 					{
 						"buffer_size": 2108,
@@ -946,8 +954,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								257,
+								257
 							]
 						],
 						"settings":
@@ -1292,16 +1300,16 @@
 		"selected_items":
 		[
 			[
+				"",
+				"/Applications/XAMPP/xamppfiles/htdocs/marilyn/marilyn.sublime-project"
+			],
+			[
 				"mari",
 				"/Applications/XAMPP/xamppfiles/htdocs/marilyn/marilyn-wp.sublime-project"
 			],
 			[
 				"mar",
 				"/Users/Hansson/Desktop/marilyn/marilyn.sublime-project"
-			],
-			[
-				"",
-				"/Users/alexanderhansson/Dropbox/hansson.sublime-project"
 			]
 		],
 		"width": 380.0
