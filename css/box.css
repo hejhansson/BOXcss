@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700);
 /* --------------------------------------------------------------
 
 	BOXcss v1.1
@@ -198,8 +200,8 @@ html {
 }
 body {
   font-size: 1.8rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.7;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 170%;
   color: #333333;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -213,7 +215,7 @@ h1,
 h2,
 h3 {
   margin-bottom: 1.4rem;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1;
 }
 h1 > a,
@@ -254,20 +256,32 @@ p + p.indent {
 p {
   display: block;
   margin: 0 0 1.6rem 0;
+  font-family: 'Source Serif Pro', serif;
 }
 p:last-child {
   margin: 0;
 }
 blockquote {
-  font-size: 1.8rem;
-  line-height: 1.7;
-  padding-left: 40px;
-  margin-left: -40px;
+  font-size: 2rem;
+  line-height: 170%;
   border-left: 1rem solid #de9d8c;
-  margin: 3rem 0;
   float: left;
-  background: #dddddd;
-  padding: 2rem 2rem 2rem 3rem;
+  padding: 2rem 2rem 2rem 4rem;
+  margin: 3rem -4rem 3rem -4rem;
+}
+blockquote:before {
+  content: "“";
+  margin-right: 2px;
+}
+blockquote:after {
+  content: "”";
+  margin-left: 2px;
+}
+@media screen and (min-width: 540px) and (max-width: 960px), only screen and (max-width: 540px) {
+  blockquote {
+    padding: 2rem 3rem 2rem 3rem;
+    margin: 3rem 0rem 3rem 0rem;
+  }
 }
 @media only screen and (max-width: 540px) {
   blockquote {
@@ -309,7 +323,7 @@ hr {
 			4.1 HEADER
 -------------------------------------------------------------- */
 header {
-  padding: 40px 0;
+  padding: 4rem 0;
 }
 header .logo {
   display: inline-block;
@@ -317,7 +331,7 @@ header .logo {
   padding: 0;
 }
 header .logo img {
-  width: 80px;
+  width: 8rem;
 }
 header .logo img:hover {
   -webkit-opacity: 0.7;
@@ -341,12 +355,12 @@ header nav[role=navigation] .primary-nav {
     text-align: center;
   }
 }
-header nav[role=navigation] .primary-nav .primary-nav__item {
+header nav[role=navigation] .primary-nav li {
   display: inline;
   margin-left: 3.5rem;
 }
 @media only screen and (max-width: 540px) {
-  header nav[role=navigation] .primary-nav .primary-nav__item {
+  header nav[role=navigation] .primary-nav li {
     margin: 0 2rem;
   }
 }
@@ -569,6 +583,176 @@ footer[role=contentinfo] p {
 .mrl100 {
   margin: 0 10rem;
 }
+@media only screen and (max-width: 540px) {
+  .p-fl {
+    float: left;
+  }
+  .p-fr {
+    float: right;
+  }
+  .p-fn {
+    float: none;
+  }
+  .p-tc {
+    text-align: center;
+  }
+  .p-tl {
+    text-align: left;
+  }
+  .p-tr {
+    text-align: right;
+  }
+  .p-hidden {
+    display: none;
+  }
+  .p-nothidden {
+    display: block;
+  }
+  .p-visible {
+    visibility: visible;
+  }
+  .p-notvisible {
+    visibility: hidden;
+  }
+  .p-pt0 {
+    padding-top: 0;
+  }
+  .p-pb0 {
+    padding-bottom: 0;
+  }
+  .p-pr0 {
+    padding-right: 0;
+  }
+  .p-pb0 {
+    padding-bottom: 0;
+  }
+  .p-mt0 {
+    margin-top: 0;
+  }
+  .p-mb0 {
+    margin-bottom: 0;
+  }
+  .p-mr0 {
+    margin-right: 0;
+  }
+  .p-mb0 {
+    margin-bottom: 0;
+  }
+  /* padding */
+  .p-pt100 {
+    padding-top: 10rem;
+  }
+  /* 100px */
+  .p-pt50 {
+    padding-top: 5rem;
+  }
+  /* 50px */
+  .p-pt20 {
+    padding-top: 2rem;
+  }
+  /* 20px */
+  .p-pl100 {
+    padding-left: 10rem;
+  }
+  .p-pl50 {
+    padding-left: 5rem;
+  }
+  .p-pl20 {
+    padding-left: 2rem;
+  }
+  .p-pr100 {
+    padding-right: 10rem;
+  }
+  .p-pr50 {
+    padding-right: 5rem;
+  }
+  .p-pr20 {
+    padding-right: 2rem;
+  }
+  .p-pb100 {
+    padding-bottom: 10rem;
+  }
+  .p-pb50 {
+    padding-bottom: 5rem;
+  }
+  .p-pb20 {
+    padding-bottom: 2rem;
+  }
+  /* margin */
+  .p-mt100 {
+    margin-top: 10rem;
+  }
+  .p-mt50 {
+    margin-top: 5rem;
+  }
+  .p-mt20 {
+    margin-top: 2rem;
+  }
+  .p-ml100 {
+    margin-left: 10rem;
+  }
+  .p-ml50 {
+    margin-left: 5rem;
+  }
+  .p-ml20 {
+    margin-left: 2rem;
+  }
+  .p-mr100 {
+    margin-right: 10rem;
+  }
+  .p-mr50 {
+    margin-right: 5rem;
+  }
+  .p-mr20 {
+    margin-right: 2rem;
+  }
+  .p-mb100 {
+    margin-bottom: 10rem;
+  }
+  .p-mb50 {
+    margin-bottom: 5rem;
+  }
+  .p-mb20 {
+    margin-bottom: 2rem;
+  }
+  /* mix */
+  .p-ptb20 {
+    padding: 2rem 0;
+  }
+  .p-ptb50 {
+    padding: 5rem 0;
+  }
+  .p-ptb100 {
+    padding: 10rem 0;
+  }
+  .p-mtb20 {
+    margin: 2rem 0;
+  }
+  .p-mtb50 {
+    margin: 5rem 0;
+  }
+  .p-mtb100 {
+    margin: 10rem 0;
+  }
+  .p-prl20 {
+    padding: 0 2rem;
+  }
+  .p-prl50 {
+    padding: 0 5rem;
+  }
+  .p-prl100 {
+    padding: 0 10rem;
+  }
+  .p-mrl20 {
+    margin: 0 2rem;
+  }
+  .p-mrl50 {
+    margin: 0 5rem;
+  }
+  .p-mrl100 {
+    margin: 0 10rem;
+  }
+}
 /* --------------------------------------------------------------
 		FIXES
 -------------------------------------------------------------- */
@@ -685,7 +869,6 @@ input[type=number] {
   display: inline-block;
   padding: 1.12rem 1rem;
   text-decoration: none;
-  font-family: sans-serif;
   text-align: center;
   font-size: 90%;
 }
@@ -733,7 +916,7 @@ input[type=number] {
   color: #ffffff;
 }
 @media only screen and (max-width: 540px) {
-  .btn--full {
+  .p-btn--full {
     width: 100%;
     display: block;
   }
@@ -774,7 +957,7 @@ tbody tr:hover {
 }
 ol,
 ul {
-  line-height: 1.7;
+  line-height: 170%;
   padding: 0 0 0 40px;
   margin-bottom: 1.6rem;
 }

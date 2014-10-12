@@ -8,7 +8,7 @@ html {
 
 body {
   font-size: @base-fontsize;
-  font-family: @helvetica;
+  font-family: @source-sans;
   line-height: @base-lineheight;
   color: @text-color;
   -webkit-font-smoothing: antialiased;
@@ -22,7 +22,9 @@ body {
 h1,
 h2,
 h3 {
-  margin-bottom: 1.4rem; font-weight: bold; line-height: 1;
+  margin-bottom: 1.4rem; 
+  font-weight: 700; 
+  line-height: 1;
 }
 
 h1>a,
@@ -62,6 +64,7 @@ p+p.indent {
 p {
   display: block;
   margin: 0 0 1.6rem 0;
+  font-family: @source-serif;
 
   &:last-child {
     margin: 0;
@@ -69,15 +72,27 @@ p {
 }
 
 blockquote {
-  font-size: 1.8rem;
+  font-size: 2rem;
   line-height: @base-lineheight;
-  padding-left: 40px;
-  margin-left: -40px;
   border-left: 1rem solid @primary-light;
-  margin: 3rem 0;
-  float: left;
-  background: @silver;
-  padding: 2rem 2rem 2rem 3rem;
+  float: left; 
+  padding: 2rem 2rem 2rem 4rem;
+  margin: 3rem -4rem 3rem -4rem;
+
+  &:before {
+    content:"“";
+    margin-right: 2px;
+  }
+
+  &:after {
+    content: "”";
+    margin-left: 2px;
+  }
+
+  @media @tablet, @phone {
+    padding: 2rem 3rem 2rem 3rem;
+    margin: 3rem 0rem 3rem 0rem;
+  }
 
   @media @phone {
     font-size: @base-fontsize - .2rem;
