@@ -153,6 +153,11 @@ html {
   overflow-y: scroll;
   min-height: 100%;
 }
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
 /*
  * 1. Disable webkit tap highlight.
  */
@@ -561,7 +566,7 @@ footer[role=contentinfo] p {
 .mrl50 {
   margin: 0 5rem;
 }
-mrl100 {
+.mrl100 {
   margin: 0 10rem;
 }
 /* --------------------------------------------------------------
@@ -602,20 +607,6 @@ input[type=number] {
 #map_canvas img,
 .google-maps img {
   max-width: none;
-}
-img,
-object,
-embed {
-  border: none;
-  -ms-interpolation-mode: bicubic;
-  display: block;
-  vertical-align: middle;
-  max-width: 100%;
-  width: auto;
-  width: auto\9;
-  /* IE Fix */
-  height: auto;
-  border: 0;
 }
 /* --------------------------------------------------------------
 	7. MEDIA QUERIES 
@@ -827,4 +818,71 @@ form label {
   margin: 0;
   display: block;
   margin-top: 1.6rem;
+}
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
 }

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background"
+			],
+			[
 				"margi",
 				"margin"
 			],
@@ -26,10 +30,6 @@
 			[
 				"pad",
 				"padding"
-			],
-			[
-				"bac",
-				"background-repeat"
 			],
 			[
 				"te",
@@ -520,7 +520,7 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/Hansson/Desktop/box.css/index.html",
+			"file": "index.html",
 			"settings":
 			{
 				"buffer_size": 6574,
@@ -528,10 +528,18 @@
 			}
 		},
 		{
-			"file": "/Users/Hansson/Desktop/box.css/less/_settings.less",
+			"file": "less/_settings.less",
 			"settings":
 			{
-				"buffer_size": 2108,
+				"buffer_size": 2124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/base/_helpers.less",
+			"settings":
+			{
+				"buffer_size": 2745,
 				"line_ending": "Unix"
 			}
 		}
@@ -539,17 +547,9 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 400.0,
 		"selected_items":
 		[
-			[
-				"",
-				"Code Folding: Fold Tag Attributes"
-			],
-			[
-				"css",
-				"Set Syntax: CSS"
-			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -579,7 +579,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 449.0
+		"width": 457.0
 	},
 	"console":
 	{
@@ -596,8 +596,12 @@
 	},
 	"file_history":
 	[
-		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/less/_settings.less",
-		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/mav2/behandlingar/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/homeopat/wp-config.php",
+		"/Users/alexanderhansson/Downloads/homeopat.sql",
+		"/Users/alexanderhansson/Desktop/hanssonryden/styles.css",
+		"/Users/alexanderhansson/Desktop/postnummer/index.html",
+		"/Users/alexanderhansson/Desktop/postnummer/app.js",
 		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/boxcss.sublime-project",
 		"/Users/alexanderhansson/Downloads/plangular-2.0-beta.1/index.html",
 		"/Users/alexanderhansson/Desktop/app.js",
@@ -719,11 +723,7 @@
 		"/Users/alexanderhansson/Desktop/ulrica2/less/partials/_footer.less",
 		"/Users/alexanderhansson/Desktop/ulrica2/less/_help--classes.less",
 		"/Users/alexanderhansson/Desktop/ulrica2/less/_type.less",
-		"/Users/alexanderhansson/Desktop/ulrica2/less/_var.less",
-		"/Users/alexanderhansson/Desktop/ulrica2/less/partials/_header.less",
-		"/Users/alexanderhansson/Desktop/ulrica2/index.html",
-		"/Users/alexanderhansson/Desktop/ulrica2/less/_box.less",
-		"/Users/alexanderhansson/Desktop/ulrica2/less/_fixes.less"
+		"/Users/alexanderhansson/Desktop/ulrica2/less/_var.less"
 	],
 	"find":
 	{
@@ -734,6 +734,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"",
 			"/Applications/XAMPP/xamppfiles/htdocs/wp-start/wp-content/themes/ulrica",
 			"<open folders>",
 			"/Applications/XAMPP/xamppfiles/htdocs/ryden/themes/ryden",
@@ -747,6 +748,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"localhost",
+			"localhost/homeopat",
+			"localhost",
+			"\n</",
+			"spam",
 			"if",
 			"@type",
 			"Lyck\"",
@@ -869,12 +875,7 @@
 			"arkiv",
 			"medlem",
 			"first",
-			"om-isoc",
-			" \n",
-			"om-is",
-			"medlem",
-			"mobile-close",
-			"nyheter"
+			"om-isoc"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -882,6 +883,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"hnssn.se/dev/ulrica",
 			"box",
 			"guest",
 			"password",
@@ -912,7 +914,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/Hansson/Desktop/box.css/index.html",
+					"file": "index.html",
 					"settings":
 					{
 						"buffer_size": 6574,
@@ -922,8 +924,8 @@
 						"selection":
 						[
 							[
-								393,
-								393
+								218,
+								218
 							]
 						],
 						"settings":
@@ -939,23 +941,49 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 1,
-					"file": "/Users/Hansson/Desktop/box.css/less/_settings.less",
+					"file": "less/_settings.less",
 					"settings":
 					{
-						"buffer_size": 2108,
+						"buffer_size": 2124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								257,
-								257
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "less/base/_helpers.less",
+					"settings":
+					{
+						"buffer_size": 2745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1763,
+								1763
 							]
 						],
 						"settings":
@@ -1019,6 +1047,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"helpers",
+				"less/base/_helpers.less"
+			],
 			[
 				"box",
 				"boxcss.sublime-project"
@@ -1301,15 +1333,7 @@
 		[
 			[
 				"",
-				"/Applications/XAMPP/xamppfiles/htdocs/marilyn/marilyn.sublime-project"
-			],
-			[
-				"mari",
-				"/Applications/XAMPP/xamppfiles/htdocs/marilyn/marilyn-wp.sublime-project"
-			],
-			[
-				"mar",
-				"/Users/Hansson/Desktop/marilyn/marilyn.sublime-project"
+				"/Applications/XAMPP/xamppfiles/htdocs/homeopat/wp-content/themes/start-tema/ulrica.sublime-project"
 			]
 		],
 		"width": 380.0
