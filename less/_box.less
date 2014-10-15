@@ -1,18 +1,18 @@
 /* --------------------------------------------------------------
 
-	BOXcss v1.1
+	BOXcss v1.2
 
 	TABLE OF CONTENTS
 	------------------
 	0. IMPORTS, MIXINS & VARIABLES
 	1. FIXES
 	2. BASE
-	3. TYPOGRAPHY
-	4. PARTIALS
+	3. INDENTITY
+	4. LAYOUT
 	5. GRID
 	6. HELP CLASSES
 	7. MEDIA QUERIES
-	8. PARTIALS
+	8. PATTERNS
 
 
 	The MIT License (MIT)
@@ -43,12 +43,13 @@
 
 	@import "_settings.less";
 	@import "/base/_mixins.less";
+	@import "/base/_import.less";
 
 /* --------------------------------------------------------------
 	1. GRID
 -------------------------------------------------------------- */
 	
-	@import "/base/_grid.less";
+	@import "/layout/_grid.less";
 
     & when (@flex = true) {
       @import "/layout/_flexbox.less";
@@ -61,10 +62,11 @@
 	@import "/base/_base.less";
 
 /* --------------------------------------------------------------
-	3. TYPOGRAPHY 
+	3. INDENTITY 
 -------------------------------------------------------------- */
 
-	@import "/base/_type.less";
+	@import "/identity/_type.less";
+	@import "/identity/_colors.less";
 
 /* --------------------------------------------------------------
 	4. LAYOUT
@@ -101,31 +103,31 @@
     }
 
 /* --------------------------------------------------------------
-	8. PARTIALS
+	8. PATTERNS
 -------------------------------------------------------------- */
 
     & when (@btn = true) {
-      @import "/base/_btn.less";
+      @import "/patterns/_btn.less";
     }
 
     & when (@table = true) {
-      @import "/partials/_table.less";
+      @import "/patterns/_table.less";
     }
 
     & when (@lists = true) {
-      @import "/partials/_lists.less";
+      @import "/patterns/_lists.less";
     }
 
     & when (@form = true) {
-      @import "/partials/_form.less";
+      @import "/patterns/_form.less";
     }
 
     & when (@debug = true) {
-    @import "/partials/_debug.less";
+    @import "/layout/_debug.less";
     }
 
     & when (@wp-core = true) {
-    @import "/partials/_wp-core.less";
+    @import "/patterns/_wp-core.less";
     }
 
 

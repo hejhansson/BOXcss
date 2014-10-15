@@ -528,42 +528,34 @@
 			}
 		},
 		{
-			"file": "less/_settings.less",
+			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 2415,
+				"buffer_size": 1285,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "less/base/_helpers.less",
+			"file": "less/_box.less",
 			"settings":
 			{
-				"buffer_size": 4702,
+				"buffer_size": 3764,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "less/layout/_header.less",
+			"file": "less/base/_base.less",
 			"settings":
 			{
-				"buffer_size": 802,
+				"buffer_size": 1058,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "less/base/_type.less",
+			"file": "less/identity/_type.less",
 			"settings":
 			{
 				"buffer_size": 1829,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "less/base/_btn.less",
-			"settings":
-			{
-				"buffer_size": 1078,
 				"line_ending": "Unix"
 			}
 		}
@@ -571,9 +563,21 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 47.0,
 		"selected_items":
 		[
+			[
+				"css3",
+				"Set Syntax: CSS3"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -603,7 +607,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 457.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -620,6 +624,20 @@
 	},
 	"file_history":
 	[
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/package.json",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/less/_settings.less",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/less/base/_btn.less",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/less/layout/_header.less",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/less/base/_helpers.less",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/less/base/_import.less",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/less/identity/_colors.less",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/less/base/_type.less",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/css/box.css",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/.idea/workspace.xml",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/config.codekit",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/boxcss.sublime-workspace",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/node_modules/grunt-contrib-less/node_modules/less/node_modules/clean-css/lib/selectors/optimizer.js",
+		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/libs/font-awesome/less/mixins.less",
 		"/Applications/XAMPP/xamppfiles/htdocs/mav2/behandlingar/index.html",
 		"/Applications/XAMPP/xamppfiles/htdocs/homeopat/wp-config.php",
 		"/Users/alexanderhansson/Downloads/homeopat.sql",
@@ -733,21 +751,7 @@
 		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/simplemedia.xsd.cs",
 		"/Users/alexanderhansson/Desktop/isoc/index.html",
 		"/Users/alexanderhansson/Desktop/isoc/isoc.html",
-		"/Users/alexanderhansson/Desktop/index.html",
-		"/Users/alexanderhansson/Desktop/cssnextpage.js",
-		"/Users/alexanderhansson/Desktop/isoc.txt",
-		"/Users/alexanderhansson/Desktop/isoc/less/_grid.less",
-		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/_var.less",
-		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/_help--classes.less",
-		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/partials/_site.less",
-		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/_type.less",
-		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/partials/_footer.less",
-		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/less/partials/_header.less",
-		"/Users/alexanderhansson/Dropbox/Dev/ulrica2/index.html",
-		"/Users/alexanderhansson/Desktop/ulrica2/less/partials/_footer.less",
-		"/Users/alexanderhansson/Desktop/ulrica2/less/_help--classes.less",
-		"/Users/alexanderhansson/Desktop/ulrica2/less/_type.less",
-		"/Users/alexanderhansson/Desktop/ulrica2/less/_var.less"
+		"/Users/alexanderhansson/Desktop/index.html"
 	],
 	"find":
 	{
@@ -755,7 +759,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"",
@@ -772,6 +776,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"btn",
+			"typ",
+			"partials",
+			"deb",
+			"grid",
 			"4",
 			"class=\"primary-nav__link\"",
 			"class=\"primary-nav__item\"",
@@ -894,12 +903,7 @@
 			"Stockholm	AB	Värmdö	0120			59.3268	18.3898	4",
 			"Stockholm	AB	Österåker	0117	",
 			"SE",
-			"Stockholm	AB	Vallentuna	0115	",
-			"59.4794	18.2997	4",
-			"59.4675	18.7494	4",
-			"59.5344	18.0776	4",
-			"-20px",
-			"20px"
+			"Stockholm	AB	Vallentuna	0115	"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -907,6 +911,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"patterns",
 			"hnssn.se/dev/ulrica",
 			"box",
 			"guest",
@@ -933,7 +938,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -948,8 +953,8 @@
 						"selection":
 						[
 							[
-								2485,
-								2485
+								4455,
+								4455
 							]
 						],
 						"settings":
@@ -957,7 +962,35 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 669.0,
+						"translation.y": 1596.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 1285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1072,
+								1072
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 291.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -965,54 +998,28 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "less/_settings.less",
-					"settings":
-					{
-						"buffer_size": 2415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1272,
-								1272
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 187.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "less/base/_helpers.less",
+					"file": "less/_box.less",
 					"settings":
 					{
-						"buffer_size": 4702,
+						"buffer_size": 3764,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								359,
-								359
+								79,
+								79
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1022,23 +1029,23 @@
 				},
 				{
 					"buffer": 3,
-					"file": "less/layout/_header.less",
+					"file": "less/base/_base.less",
 					"settings":
 					{
-						"buffer_size": 802,
+						"buffer_size": 1058,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								736,
-								736
+								557,
+								557
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1050,7 +1057,7 @@
 				},
 				{
 					"buffer": 4,
-					"file": "less/base/_type.less",
+					"file": "less/identity/_type.less",
 					"settings":
 					{
 						"buffer_size": 1829,
@@ -1060,41 +1067,13 @@
 						"selection":
 						[
 							[
-								1360,
-								1360
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 663.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "less/base/_btn.less",
-					"settings":
-					{
-						"buffer_size": 1078,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								339,
-								339
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1156,12 +1135,32 @@
 		"selected_items":
 		[
 			[
-				"btn",
-				"less/base/_btn.less"
+				"pac",
+				"package.json"
 			],
 			[
 				"typ",
-				"less/base/_type.less"
+				"less/identity/_type.less"
+			],
+			[
+				"mix",
+				"libs/font-awesome/less/mixins.less"
+			],
+			[
+				"base.",
+				"less/base/_base.less"
+			],
+			[
+				"box.le",
+				"less/_box.less"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"btn",
+				"less/base/_btn.less"
 			],
 			[
 				"header",
@@ -1214,10 +1213,6 @@
 			[
 				"grid",
 				"isoc/less/_grid.less"
-			],
-			[
-				"mix",
-				"isoc.dev/libs/font-awesome/less/mixins.less"
 			],
 			[
 				"type",
@@ -1312,10 +1307,6 @@
 				"ulrica/less/_responsiveness.less"
 			],
 			[
-				"grunt",
-				"ulrica/Gruntfile.js"
-			],
-			[
 				"head",
 				"fia/header.php"
 			],
@@ -1342,10 +1333,6 @@
 			[
 				"custom",
 				"ryden/page-custom.php"
-			],
-			[
-				"box.le",
-				"anchor-box/less/_box.less"
 			],
 			[
 				"functi",
@@ -1445,7 +1432,7 @@
 		[
 			[
 				"",
-				"/Applications/XAMPP/xamppfiles/htdocs/homeopat/wp-content/themes/start-tema/ulrica.sublime-project"
+				"/Applications/XAMPP/xamppfiles/htdocs/marilyn/marilyn-wp.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1453,7 +1440,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 141.0,
 	"status_bar_visible": false
 }
