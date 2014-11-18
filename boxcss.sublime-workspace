@@ -4,8 +4,24 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"container-width"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
 				"mar",
-				"margin-top"
+				"margin"
+			],
+			[
+				"js",
+				"jsFiles"
 			],
 			[
 				"fon",
@@ -14,10 +30,6 @@
 			[
 				"font",
 				"font-family"
-			],
-			[
-				"pad",
-				"padding-top"
 			],
 			[
 				"bac",
@@ -50,10 +62,6 @@
 			[
 				"bo",
 				"border"
-			],
-			[
-				"li",
-				"line-height"
 			],
 			[
 				"border-",
@@ -190,10 +198,6 @@
 			[
 				"bl",
 				"block"
-			],
-			[
-				"con",
-				"container-login"
 			],
 			[
 				"fade",
@@ -510,39 +514,11 @@
 			[
 				"m",
 				"margin-right"
-			],
-			[
-				"max-",
-				"max-height"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 5317,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 1285,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "less/_box.less",
-			"settings":
-			{
-				"buffer_size": 3764,
-				"line_ending": "Unix"
-			}
-		},
 		{
 			"file": "less/base/_base.less",
 			"settings":
@@ -552,10 +528,66 @@
 			}
 		},
 		{
+			"file": "less/identity/_colors.less",
+			"settings":
+			{
+				"buffer_size": 737,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/layout/_header.less",
+			"settings":
+			{
+				"buffer_size": 845,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/layout/_content.less",
+			"settings":
+			{
+				"buffer_size": 220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/_settings.less",
+			"settings":
+			{
+				"buffer_size": 1582,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/functions.js",
+			"settings":
+			{
+				"buffer_size": 847,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "less/identity/_type.less",
 			"settings":
 			{
-				"buffer_size": 1829,
+				"buffer_size": 2014,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/patterns/_lists.less",
+			"settings":
+			{
+				"buffer_size": 515,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/base/_import.less",
+			"settings":
+			{
+				"buffer_size": 284,
 				"line_ending": "Unix"
 			}
 		}
@@ -563,9 +595,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 47.0,
+		"height": 400.0,
 		"selected_items":
 		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
 			[
 				"css3",
 				"Set Syntax: CSS3"
@@ -573,10 +609,6 @@
 			[
 				"less",
 				"Set Syntax: LESS"
-			],
-			[
-				"css",
-				"Set Syntax: CSS"
 			],
 			[
 				"install",
@@ -607,7 +639,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 449.0
+		"width": 457.0
 	},
 	"console":
 	{
@@ -624,6 +656,38 @@
 	},
 	"file_history":
 	[
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/index.html",
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/less/layout/_debug.less",
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/libs/font-awesome/less/list.less",
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/less/identity/_type.less",
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/less/_settings.less",
+		"/Users/alexanderhansson/Desktop/ember/index.html",
+		"/Users/alexanderhansson/Desktop/ember/css/style.css",
+		"/Users/alexanderhansson/Desktop/ember/js/app.js",
+		"/Users/alexanderhansson/Desktop/ember/tests/tests.js",
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/less/layout/_grid.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/jalln/js/global-variables.js",
+		"/Users/alexanderhansson/Downloads/SimpleSlides-master/index.html",
+		"/Users/alexanderhansson/Downloads/SimpleSlides-master/plugin/simpleslides.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/jalln/js/update-player-status.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/jalln/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jalln/js/add-choices-to-locations.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/jalln/js/start.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/jalln/js/wait-around.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/jalln/js/update-progress-bars.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/jalln/js/update-bag.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/jalln/js/do-on-menu-choice.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/jalln/js/js-loader.js",
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/less/base/_base.less",
+		"/Users/alexanderhansson/Downloads/espresso-addict/js/js-loader.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alex-blogg/themes/anchor-box/less/_type.less",
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/less/_box.less",
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/js/functions.js",
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/js/print.js",
+		"/Users/alexanderhansson/Downloads/espresso-addict/js/global-variables.js",
+		"/Users/alexanderhansson/Downloads/espresso-addict/js/build-menu.js",
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/less/identity/_colors.less",
+		"/Users/alexanderhansson/Dropbox/Webb/boxcss v1/box.css/Gruntfile.js",
 		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/package.json",
 		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/less/_settings.less",
 		"/Users/Hansson/Dropbox/Webb/boxcss v1/box.css/less/base/_btn.less",
@@ -694,7 +758,6 @@
 		"/Users/alexanderhansson/Dropbox/Dev/isoc/less/_base.less",
 		"/Users/alexanderhansson/Dropbox/Dev/isoc/less/partials/_header.less",
 		"/Users/alexanderhansson/Dropbox/Dev/isoc/index.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/alex-blogg/themes/anchor-box/less/_type.less",
 		"/Applications/XAMPP/xamppfiles/htdocs/ISOC/wp-content/themes/isoc.dev/README.md",
 		"/Users/alexanderhansson/.Trash/Properties/AssemblyInfo.cs",
 		"/Users/alexanderhansson/Desktop/lab4/Laboration4/simplemedia.xsd",
@@ -720,38 +783,7 @@
 		"/Users/alexanderhansson/Desktop/lab4/Laboration4/obj/Debug/BizTalk/BuildDone",
 		"/Users/alexanderhansson/Desktop/lab4/Laboration4/Laboration4.btproj",
 		"/Users/alexanderhansson/Desktop/lab4/Laboration4/Lab4Orchestration.odx",
-		"/Users/alexanderhansson/Desktop/lab4/Laboration4/key.snk",
-		"/Users/alexanderhansson/Desktop/lab4/Laboration4/inPipeline.btp.cs",
-		"/Users/alexanderhansson/Desktop/lab4/Laboration4/inPipeline.btp",
-		"/Users/alexanderhansson/Desktop/lab4/Laboration4/bin/Debug/Laboration4.pdb",
-		"/Users/alexanderhansson/Desktop/lab4/Laboration4/bin/Debug/Laboration4.dll",
-		"/Users/alexanderhansson/Desktop/Laboration 1 C# .NET Alexander Hansson/Lottodragning C# .NET - Alexander Hansson/WindowsFormsApplication1/Form1.cs",
-		"/Users/alexanderhansson/Desktop/Laboration 1 C# .NET Alexander Hansson/Miniräknare C# .NET - Alexander Hansson/WindowsFormsApplication2/Form1.cs",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/inSchema.xsd.cs",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/inSchema.xsd",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/simplemedia.xsd",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/Lab4Orchestration.odx",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/outPipeline.btp.cs",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/Properties/AssemblyInfo.cs",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/Laboration4.pdb",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/Laboration4.dll",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/Laboration4.ClrTypes.dll",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/Laboration4.btproj.FileListAbsolute.txt",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/BizTalk/XLang/File0.cs",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/obj/Debug/BizTalk/BuildDone",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/outPipeline.btp",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/mappningLab4.btm",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/lab4Key.snk",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/inPipeline.btp.cs",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/FlatFileSchema1.xsd",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/bin/Debug/Laboration4.pdb",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/bin/Debug/Laboration4.dll",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4.suo",
-		"/Users/alexanderhansson/Downloads/Laboration4/Laboration4/simplemedia.xsd.cs",
-		"/Users/alexanderhansson/Desktop/isoc/index.html",
-		"/Users/alexanderhansson/Desktop/isoc/isoc.html",
-		"/Users/alexanderhansson/Desktop/index.html"
+		"/Users/alexanderhansson/Desktop/lab4/Laboration4/key.snk"
 	],
 	"find":
 	{
@@ -759,7 +791,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"",
@@ -776,6 +808,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"box",
+			"boxes",
+			"h3",
+			"rimary-lighter",
+			"#d7f0a2",
+			"fffdc2",
+			"85",
+			"25",
+			"15",
+			";\n",
+			"p",
+			"columns",
 			"btn",
 			"typ",
 			"partials",
@@ -891,19 +935,7 @@
 			"Stockholm	AB	Botkyrka	0127			59.25	17.7833	4",
 			"Stockholm	AB	Huddinge	0126			59.2667	17.8833	4",
 			"Stockholm	AB	Huddinge	0126			59.2333	18.1333	4",
-			"Stockholm	AB	Huddinge	0126			59.2167	18.15	4",
-			"Stockholm	AB	Huddinge	0126			59.237	17.9819	4",
-			"Stockholm	AB	Huddinge	0126			59.237	17.9819	4\n\"14183:Huddinge	Stockholm	AB	Huddinge	0126			59.237	17.9819	4",
-			"Stockh",
-			"Stoc",
-			"Stockholm	AB	Ekerö	0125			59.291	17.8121	4",
-			"Stockholm	AB	Järfälla	0123			59.3501	17.9658	1",
-			"Stockholm	AB	Värmdö	0120			59.35	18.5	4",
-			"Stockholm	AB	Värmdö	0120			59.3268	18.3898	1",
-			"Stockholm	AB	Värmdö	0120			59.3268	18.3898	4",
-			"Stockholm	AB	Österåker	0117	",
-			"SE",
-			"Stockholm	AB	Vallentuna	0115	"
+			"Stockholm	AB	Huddinge	0126			59.2167	18.15	4"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -938,97 +970,16 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 5317,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4455,
-								4455
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1596.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Gruntfile.js",
-					"settings":
-					{
-						"buffer_size": 1285,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1072,
-								1072
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 291.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "less/_box.less",
-					"settings":
-					{
-						"buffer_size": 3764,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79,
-								79
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "less/base/_base.less",
 					"settings":
 					{
@@ -1039,13 +990,13 @@
 						"selection":
 						[
 							[
-								557,
-								557
+								327,
+								327
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1056,26 +1007,214 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "less/identity/_type.less",
+					"buffer": 1,
+					"file": "less/identity/_colors.less",
 					"settings":
 					{
-						"buffer_size": 1829,
+						"buffer_size": 737,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								263,
+								247
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "less/layout/_header.less",
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "less/layout/_content.less",
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "less/_settings.less",
+					"settings":
+					{
+						"buffer_size": 1582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/functions.js",
+					"settings":
+					{
+						"buffer_size": 847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								472,
+								472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "less/identity/_type.less",
+					"settings":
+					{
+						"buffer_size": 2014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								943,
+								943
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 358.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "less/patterns/_lists.less",
+					"settings":
+					{
+						"buffer_size": 515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "less/base/_import.less",
+					"settings":
+					{
+						"buffer_size": 284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1114,7 +1253,7 @@
 		"cols":
 		[
 			0.0,
-			0.488705985915,
+			0.489830213009,
 			1.0
 		],
 		"rows":
@@ -1134,6 +1273,54 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"grid.",
+				"less/layout/_grid.less"
+			],
+			[
+				"debu",
+				"less/layout/_debug.less"
+			],
+			[
+				"_lists",
+				"less/patterns/_lists.less"
+			],
+			[
+				"list",
+				"libs/font-awesome/less/list.less"
+			],
+			[
+				"type",
+				"less/identity/_type.less"
+			],
+			[
+				"fun",
+				"js/functions.js"
+			],
+			[
+				"set",
+				"less/_settings.less"
+			],
+			[
+				"sett",
+				"less/_settings.less"
+			],
+			[
+				"setting",
+				"less/_settings.less"
+			],
+			[
+				"content.l",
+				"less/layout/_content.less"
+			],
+			[
+				"header",
+				"less/layout/_header.less"
+			],
+			[
+				"grid",
+				"less/layout/_grid.less"
+			],
 			[
 				"pac",
 				"package.json"
@@ -1163,10 +1350,6 @@
 				"less/base/_btn.less"
 			],
 			[
-				"header",
-				"less/layout/_header.less"
-			],
-			[
 				"helpers",
 				"less/base/_helpers.less"
 			],
@@ -1191,10 +1374,6 @@
 				"isoc/index.php"
 			],
 			[
-				"fun",
-				"isoc/js/functions.js"
-			],
-			[
 				"functio",
 				"isoc/js/functions.js"
 			],
@@ -1209,14 +1388,6 @@
 			[
 				"sin",
 				"isoc/single.php"
-			],
-			[
-				"grid",
-				"isoc/less/_grid.less"
-			],
-			[
-				"type",
-				"isoc/less/_type.less"
 			],
 			[
 				"widge",
@@ -1432,7 +1603,7 @@
 		[
 			[
 				"",
-				"/Applications/XAMPP/xamppfiles/htdocs/marilyn/marilyn-wp.sublime-project"
+				"/Users/alexanderhansson/Dropbox/hansson.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1440,7 +1611,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 141.0,
 	"status_bar_visible": false
 }

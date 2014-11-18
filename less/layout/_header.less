@@ -40,7 +40,10 @@ header {
 
       li {
         display: inline;
-        margin-left: 3.5rem;
+
+        &:not(:last-child) {
+          margin-right: 3.5rem;
+        }
 
         @media @phone {
           margin: 0 2rem;

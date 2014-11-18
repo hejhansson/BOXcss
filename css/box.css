@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700);
 /* --------------------------------------------------------------
 
-	BOXcss v1.1
+	BOXcss v1.2
 
 	TABLE OF CONTENTS
 	------------------
@@ -76,7 +76,7 @@
 		1. GRID
 -------------------------------------------------------------- */
 .container {
-  max-width: 86rem;
+  max-width: 102rem;
   margin: 0 auto;
   padding: 0 2rem;
   position: relative;
@@ -92,41 +92,79 @@
   display: inline-block;
   padding: 2rem .5rem;
 }
-.box-12 {
-  width: 100%;
+/* offset-1 - offset-12 */
+.offset-1 {
+  margin-left: 8.333333333333334%;
 }
-.box-11 {
-  width: 91.6%;
+.offset-2 {
+  margin-left: 16.666666666666668%;
 }
-.box-10 {
-  width: 83.3%;
+.offset-3 {
+  margin-left: 25%;
 }
-.box-9 {
-  width: 75%;
+.offset-4 {
+  margin-left: 33.333333333333336%;
 }
-.box-8 {
-  width: 66.6%;
+.offset-5 {
+  margin-left: 41.666666666666664%;
 }
-.box-7 {
-  width: 58.3%;
+.offset-6 {
+  margin-left: 50%;
 }
-.box-6 {
-  width: 50%;
+.offset-7 {
+  margin-left: 58.333333333333336%;
 }
-.box-5 {
-  width: 41.6%;
+.offset-8 {
+  margin-left: 66.66666666666667%;
 }
-.box-4 {
-  width: 33.3%;
+.offset-9 {
+  margin-left: 75%;
+}
+.offset-10 {
+  margin-left: 83.33333333333333%;
+}
+.offset-11 {
+  margin-left: 91.66666666666667%;
+}
+.offset-12 {
+  margin-left: 100%;
+}
+/* box-1 - box-12 */
+.box-1 {
+  width: 8.333333333333334%;
+}
+.box-2 {
+  width: 16.666666666666668%;
 }
 .box-3 {
   width: 25%;
 }
-.box-2 {
-  width: 16.6%;
+.box-4 {
+  width: 33.333333333333336%;
 }
-.box-1 {
-  width: 8.3%;
+.box-5 {
+  width: 41.666666666666664%;
+}
+.box-6 {
+  width: 50%;
+}
+.box-7 {
+  width: 58.333333333333336%;
+}
+.box-8 {
+  width: 66.66666666666667%;
+}
+.box-9 {
+  width: 75%;
+}
+.box-10 {
+  width: 83.33333333333333%;
+}
+.box-11 {
+  width: 91.66666666666667%;
+}
+.box-12 {
+  width: 100%;
 }
 /* --------------------------------------------------------------
 	2. BASE
@@ -213,10 +251,20 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4,
+.h1,
+.h2,
+.h3,
+.h4 {
   margin-bottom: 1.4rem;
-  font-weight: 700;
   line-height: 1;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
 }
 h1 > a,
 h2 > a,
@@ -225,28 +273,44 @@ h4 > a {
   text-decoration: none;
   color: #cd6a51;
 }
-h1 {
+h1,
+.h1 {
   font-size: 5rem;
 }
 @media only screen and (max-width: 540px) {
-  h1 {
+  h1,
+  .h1 {
     font-size: 3.3rem;
   }
 }
-h2 {
+h2,
+.h2 {
   font-size: 3.1rem;
 }
 @media only screen and (max-width: 540px) {
-  h2 {
+  h2,
+  .h2 {
     font-size: 2.4rem;
   }
 }
-h3 {
+h3,
+.h3 {
   font-size: 2.4rem;
 }
 @media only screen and (max-width: 540px) {
-  h3 {
+  h3,
+  .h3 {
     font-size: 2rem;
+  }
+}
+h4,
+.h4 {
+  font-size: 2rem;
+}
+@media only screen and (max-width: 540px) {
+  h4,
+  .h4 {
+    font-size: 1.9rem;
   }
 }
 p + p.indent {
@@ -266,8 +330,8 @@ blockquote {
   line-height: 170%;
   border-left: 1rem solid #de9d8c;
   float: left;
-  padding: 2rem 2rem 2rem 4rem;
-  margin: 3rem -4rem 3rem -4rem;
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 3rem -4rem 3rem -3.5rem;
 }
 blockquote:before {
   content: "“";
@@ -302,6 +366,9 @@ small {
   small {
     font-size: 1.4rem;
   }
+}
+.small-caps {
+  font-variant: small-caps;
 }
 em {
   font-style: italic;
@@ -360,7 +427,9 @@ header nav[role=navigation] .primary-nav {
 }
 header nav[role=navigation] .primary-nav li {
   display: inline;
-  margin-left: 3.5rem;
+}
+header nav[role=navigation] .primary-nav li:not(:last-child) {
+  margin-right: 3.5rem;
 }
 @media only screen and (max-width: 540px) {
   header nav[role=navigation] .primary-nav li {
@@ -972,6 +1041,23 @@ ol li ol,
 ul li ol,
 ol li ul,
 ul li ul {
+  margin: .3rem 2rem;
+}
+ol.list-reset,
+ul.list-reset {
+  line-height: 170%;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 1.6rem;
+}
+ol.list-reset li,
+ul.list-reset li {
+  color: #cd6a51;
+}
+ol.list-reset li ol,
+ul.list-reset li ol,
+ol.list-reset li ul,
+ul.list-reset li ul {
   margin: .3rem 2rem;
 }
 form input[type="text"],

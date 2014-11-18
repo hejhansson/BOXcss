@@ -6,7 +6,6 @@ $(document).ready(function() {
 });
 
 
-
 /*
  * Confirm with users before opening
  * any mailto:-link through their default email client.
